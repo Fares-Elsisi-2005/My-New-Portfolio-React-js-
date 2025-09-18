@@ -3,7 +3,7 @@
   {
     "id": "p1",
     "title": "Netflix Clone",
-    "thumbnail": "src/assets/projectsImages/netflixClone.png",
+    "thumbnail": "/assets/projectsImages/netflixClone.png",
     "tech": ["React", "Material UI", "API"],
     "category": ["Clone", "React + Material UI", "API Projects", "JavaScript","HTML & CSS"],
     "description": "A Netflix clone built with React, Material UI, and TMDB API. It features user authentication, movie browsing, and a responsive design for an engaging user experience.",
@@ -14,7 +14,7 @@
   {
     "id": "p2",
     "title": "Admin Dashboard",
-    "thumbnail": "src/assets/projectsImages/reactDashboard.png",
+    "thumbnail": "/assets/projectsImages/reactDashboard.png",
     "tech": ["React","React Router", "Material UI","fullcalendar","nivo charts","formik","yup"],
     "category": [ "React + Material UI" ],
     "description": "this is a React Admin Dashboard template using Material UI components and React Router for navigation. It includes various features such as charts, calendars, and forms to manage data effectively.",
@@ -25,7 +25,7 @@
   {
     "id": "p3",
     "title": "Todo list",
-    "thumbnail": "src/assets/projectsImages/React_TodoList.png",
+    "thumbnail": "/assets/projectsImages/React_TodoList.png",
     "tech": ["React", "Material UI"],
     "category": ["React + Material UI"],
     "description": "this is a todo list app using React js and Matrial UI i was learning in it all the react concepts i this is the concepts and tools that i did it in the this project : useState, useEffect, useMemo, useContexts and reducers and  more. check blow the source code to see what i did .",
@@ -37,7 +37,7 @@
   {
     "id": "p4",
     "title": "Weather App",
-    "thumbnail": "src/assets/projectsImages/Weather_App.png",
+    "thumbnail": "/assets/projectsImages/Weather_App.png",
     "tech": ["React", "Material UI", "API"],
     "category": ["React + Material UI","API Projects"],
     "description": " this is a weather app using React js and Matrial UI and open weather API (desktop screen)",
@@ -49,7 +49,7 @@
   {
     "id": "p5",
     "title": "Proudct Managment System (CRUDS)",
-    "thumbnail": "src/assets/projectsImages/jvascript_CRUDS.png",
+    "thumbnail": "/assets/projectsImages/jvascript_CRUDS.png",
     "tech": ["JavaScript", "HTML & CSS"],
     "category": ["JavaScript","HTML & CSS" ],
     "description": " this is a Proudct Managment System has all (CRUDS) operations create, read, update, delete and search products using JavaScript, HTML, and CSS",
@@ -62,7 +62,7 @@
   {
     "id": "p6",
     "title": "Interactive nested comments section (CRUD)",
-    "thumbnail": "src/assets/projectsImages/nestedComments.png",
+    "thumbnail": "/assets/projectsImages/nestedComments.png",
     "tech": ["JavaScript", "HTML & CSS"],
     "category": ["JavaScript","HTML & CSS","Personal Projects" ],
     "description": " this is a Interactive  nested comments section has all (CRUD) operations create, read, update, delete and reply to comments  it was hard to loop over nested array i used recursion concept to solve this problem i will inegrate it in my courses platform using react js i will add limitation for the replies ui in the small screens by the way it was  a broject from frontend mentor website (www.frontendmentor.io)",
@@ -74,7 +74,7 @@
   {
     "id": "p7",
     "title": "Proudct Page",
-    "thumbnail": "src/assets/projectsImages/productPageWebsiteImage.png",
+    "thumbnail": "/assets/projectsImages/productPageWebsiteImage.png",
     "tech": ["JavaScript", "HTML & CSS"],
     "category": ["JavaScript","HTML & CSS","Personal Projects" ],
     "description": " this is a Proudct Page website using JavaScript, HTML, and CSS it has a lot of features like image gallery with lightbox and add to cart functionality and responsive design this project is really Challenging UI for begginers the project from frontend mentor website (www.frontendmentor.io)",
@@ -86,7 +86,7 @@
   {
     "id": "p8",
     "title": "Image processor",
-    "thumbnail": "src/assets/projectsImages/javascript_ImageEditor.png",
+    "thumbnail": "/assets/projectsImages/javascript_ImageEditor.png",
     "tech": ["JavaScript", "HTML & CSS"],
     "category": ["JavaScript","HTML & CSS"  ],
     "description": " this is a JavaScript Image Editor using JavaScript, HTML, and CSS it has a lot of features like crop, rotate, flip, adjust brightness, contrast, saturation, and more and  i learned a lot of things in this project about the canvas element in html and how to manipulate images using javascript. yes it has some ui problems but its still great.",
@@ -98,7 +98,7 @@
   {
     "id": "p9",
     "title": "Browser extensions manager UI",
-    "thumbnail": "src/assets/projectsImages/desktop-design-dark.jpg",
+    "thumbnail": "/assets/projectsImages/desktop-design-dark.jpg",
     "tech": ["JavaScript", "HTML & CSS"],
     "category": ["JavaScript","HTML & CSS","Personal Projects" ],
     "description": " this is a Browser extensions manager UI using JavaScript, HTML, and CSS it has a lot of features like add, delete and fillteration buttons to show  all, active and non active extention and responsive design it has dark and light mode option. the project from frontend mentor website (www.frontendmentor.io)",
@@ -110,7 +110,7 @@
   {
     "id": "p10",
     "title": "Real Social media app  (mini facebook)",
-    "thumbnail": "src/assets/projectsImages/javascriptSocialMediaApp.png",
+    "thumbnail": "/assets/projectsImages/javascriptSocialMediaApp.png",
     "tech": ["JavaScript", "HTML & CSS", "API","Bootstrap"],
     "category": ["JavaScript","HTML & CSS", "API Projects","Fullstack Projects" ],
     "description": "this is my first big project This is a simple social media web app built using HTML, CSS, and JavaScript. It allows users to register, log in, and create, edit, or delete posts with images.Data is managed using Axios to communicate with a REST API from the Backend .The app supports user authentication, dynamic post display, and infinitescrolling.",
@@ -122,7 +122,7 @@
   {
     "id": "p11",
     "title": "Bondi Inc Template",
-    "thumbnail": "src/assets/projectsImages/bootstrapTemplate.png",
+    "thumbnail": "/assets/projectsImages/bootstrapTemplate.png",
     "tech": [ "HTML & CSS","Bootstrap"],
     "category": ["HTML & CSS","Bootstrap" ],
     "description": " this is a Bondi Inc Template using HTML, CSS, and Bootstrap it has a lot of sections like navbar, hero section, services section, portfolio section, testimonials section, and contact section and responsive design",
@@ -134,7 +134,7 @@
   {
     "id": "p12",
     "title": "Fares Knight Template",
-    "thumbnail": "src/assets/projectsImages/bootstrapTemplate2.png",
+    "thumbnail": "/assets/projectsImages/bootstrapTemplate2.png",
     "tech": [ "HTML & CSS","Bootstrap"],
     "category": ["HTML & CSS","Bootstrap" ],
     "description": " this is a Fares Knight Template using HTML, CSS, and Bootstrap it has a lot of sections like navbar, hero section, services section, portfolio section, testimonials section, and contact section and responsive design",
@@ -146,7 +146,7 @@
   {
     "id": "p13",
     "title": "Portofolio website",
-    "thumbnail": "src/assets/projectsImages/htmlCssLeaonTemplateOne5.png",
+    "thumbnail": "/assets/projectsImages/htmlCssLeaonTemplateOne5.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS" ],
     "description": " this is a Portofolio website using HTML, CSS, and it has a lot of sections like navbar, hero section, about me section, services section, portfolio section, testimonials section, and contact section and responsive design",
@@ -158,7 +158,7 @@
   {
     "id": "p13",
     "title": "Portofolio website 2",
-    "thumbnail": "src/assets/projectsImages/Template2Image.png",
+    "thumbnail": "/assets/projectsImages/Template2Image.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS" ],
     "description": " this is a Portofolio website using HTML, CSS, and it has a lot of sections like navbar, hero section, about me section, services section, portfolio section, testimonials section, and contact section and responsive design",
@@ -170,7 +170,7 @@
   {
     "id": "p14",
     "title": "Clothes Store website",
-    "thumbnail": "src/assets/projectsImages/ClothsWebsiteImage.png",
+    "thumbnail": "/assets/projectsImages/ClothsWebsiteImage.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS","Personal Projects" ],
     "description": " this is a Clothes Store website using HTML, CSS, has responsive design this project is remade from (www.w3schools.com) website to practice my skills in html and css",
@@ -182,7 +182,7 @@
   {
     "id": "p15",
     "title": "Interior Design Website",
-    "thumbnail": "src/assets/projectsImages/interiorDesignWebsiteImage.png",
+    "thumbnail": "/assets/projectsImages/interiorDesignWebsiteImage.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS","Personal Projects" ],
     "description": " this is a Interior Design Website using HTML, CSS, has responsive design this project is remade from (www.w3schools.com) website to practice my skills in html and css",
@@ -194,7 +194,7 @@
   {
     "id": "p16",
     "title": "Social media dashboard",
-    "thumbnail": "src/assets/projectsImages/htmlCss_socialMediaDashboard.png",
+    "thumbnail": "/assets/projectsImages/htmlCss_socialMediaDashboard.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS" ],
     "description": " this is a Social media dashboard using HTML, CSS, has responsive design the project from frontend mentor website (www.frontendmentor.io)",
@@ -207,7 +207,7 @@
   {
     "id": "p17",
     "title": "Dashboard page",
-    "thumbnail": "src/assets/projectsImages/hrmlCssDashboard2.png",
+    "thumbnail": "/assets/projectsImages/hrmlCssDashboard2.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS" ],
     "description": "  this is a Dashboard page using HTML, CSS, has responsive design ",
@@ -219,7 +219,7 @@
   {
     "id": "p18",
     "title": "Restaurant Webiste",
-    "thumbnail": "src/assets/projectsImages/htmlCssrestaurant6.png",
+    "thumbnail": "/assets/projectsImages/htmlCssrestaurant6.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS" ],
     "description": " this is a Restaurant Webiste using HTML, CSS, has responsive design the project from  freecodecamp website (www.freecodecamp.org)",
@@ -231,7 +231,7 @@
   {
     "id": "p19",
     "title": "Creative menu",
-    "thumbnail": "src/assets/projectsImages/htmlCssCreativeMenu3.png",
+    "thumbnail": "/assets/projectsImages/htmlCssCreativeMenu3.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS" ],
     "description": " this is a Creative menu using HTML, CSS.",
@@ -243,7 +243,7 @@
   {
     "id": "p20",
     "title": "Glassy website",
-    "thumbnail": "src/assets/projectsImages/htmlCssGlassyWebsite4.png",
+    "thumbnail": "/assets/projectsImages/htmlCssGlassyWebsite4.png",
     "tech": [ "HTML & CSS"],
     "category": ["HTML & CSS" ],
     "description": " this is a branding website using HTML, CSS.",
@@ -256,7 +256,7 @@
   {
     "id": "p21",
     "title": "Prayer times",
-    "thumbnail": "src/assets/projectsImages/api_prayingTimes.png",
+    "thumbnail": "/assets/projectsImages/api_prayingTimes.png",
     "tech": ["JavaScript", "HTML & CSS", "API" ],
     "category": ["JavaScript","HTML & CSS", "API Projects" ],
     "description": " this is a Prayer times app using JavaScript, HTML, and CSS and (AlAdhan) API it has a lot of features like get prayer times for any city in the world and responsive design",

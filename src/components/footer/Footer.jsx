@@ -35,7 +35,7 @@ const Footer = () => {
              
         }}>
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} gap={"20px"}>
-                <Avatar sx={{width:"80px", height:"80px"}}  alt="Fares Ahmed" src="../src/assets/team-1.png" />
+                <Avatar sx={{width:"80px", height:"80px"}}  alt="Fares Ahmed" src="/assets/team-1.png" />
                 <Typography  className="TNeon" variant="h4">Fares Ahmed</Typography>
             </Box>
             <Box display={"flex"} flexWrap={"wrap"}>

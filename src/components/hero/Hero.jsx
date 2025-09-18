@@ -11,7 +11,7 @@ import VisibilityIcon from '@mui/icons-material/Visibility'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import InstagramIcon from '@mui/icons-material/Instagram'
-import TelegramIcon from '@mui/icons-material/Telegram'
+/* import TelegramIcon from '@mui/icons-material/Telegram' */
 import { Link as ScrollLink } from 'react-scroll'
 
 
@@ -43,7 +43,7 @@ export default function Hero() {
             sx={{
         width: { xs: 200, sm: 250, md: 250, lg: 300 },
     height: { xs: 200, sm: 250, md: 250, lg: 300 },}
-       } alt="Fares Ahmed" src="../src/assets/team-1.png" />
+       } alt="Fares Ahmed" src="/assets/team-1.png" />
           <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1 }}>
             <Tooltip title="linkedin">
               <IconButton   component="a" href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>

@@ -25,7 +25,7 @@ const Services = () => {
          
                 <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor="rgba(0, 229, 255, 0.2)">
                     <Box width={"40%"} m={"0 auto"}>
-                        <img className='NeonPng' style={{width:"100%"}} src="../src/assets/servicesimages/landingPage.png" alt="landingPage" />
+                        <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/landingPage.png" alt="landingPage" />
 
                     </Box>
                     <Box className="TNeon" mt={"20px"} >
@@ -39,7 +39,7 @@ const Services = () => {
                  
                 <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor="rgba(0, 229, 255, 0.2)">
                     <Box width={"40%"} m={"0 auto"}>
-                        <img className='NeonPng' style={{width:"100%"}} src="../src/assets/servicesimages/responsive-page.png" alt="landingPage" />
+                        <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/responsive-page.png" alt="landingPage" />
 
                     </Box>
                     <Box className="TNeon" mt={"20px"} >
@@ -53,7 +53,7 @@ const Services = () => {
                  
                 <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor="rgba(0, 229, 255, 0.2)">
                     <Box width={"40%"} m={"0 auto"}>
-                        <img className='NeonPng' style={{width:"100%"}} src="../src/assets/servicesimages/app-development.png" alt="landingPage" />
+                        <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/app-development.png" alt="landingPage" />
 
                     </Box>
                     <Box className="TNeon" mt={"20px"} >
@@ -67,7 +67,7 @@ const Services = () => {
                 
                 <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor="rgba(0, 229, 255, 0.2)">
                     <Box width={"40%"} m={"0 auto"}>
-                        <img className='NeonPng' style={{width:"100%"}} src="../src/assets/servicesimages/Api.png" alt="landingPage" />
+                        <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/Api.png" alt="landingPage" />
 
                     </Box>
                     <Box className="TNeon" mt={"20px"} >
@@ -81,7 +81,7 @@ const Services = () => {
                 
                 <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor="rgba(0, 229, 255, 0.2)">
                     <Box width={"40%"} m={"0 auto"}>
-                        <img className='NeonPng' style={{width:"100%"}} src="../src/assets/servicesimages/web-layout.png" alt="landingPage" />
+                        <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/web-layout.png" alt="landingPage" />
 
                     </Box>
                     <Box className="TNeon" mt={"20px"} >
