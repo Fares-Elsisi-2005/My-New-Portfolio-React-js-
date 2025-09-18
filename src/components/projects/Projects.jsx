@@ -9,7 +9,7 @@ import CardActions from '@mui/material/CardActions'
 import Button from '@mui/material/Button'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import projectsData from '../../data/projects.json';
-import GlassCard from '../GlassCard/GlassCard';
+import GlassCard from '../glassCard/GlassCard';
 import "./Projects.css"
 import 'react-lazy-load-image-component/src/effects/blur.css'
 
