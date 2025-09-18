@@ -1,0 +1,45 @@
+[
+    {
+        "id": "s1",
+        "name": "JavaScript",
+        "icon": "fa-brands fa-js",
+        "styleClass":"TNeonJavaSript"
+    },
+    {
+        "id": "s2",
+        "name": "Python",
+        "icon": "fa-brands fa-python",
+        "styleClass":"TNeonPython"
+    },
+    {
+        "id": "s3",
+        "name": "CSS",
+        "icon": "fa-brands fa-css3-alt",
+        "styleClass":"TNeonCss"
+    },
+    {
+        "id": "s4",
+        "name": "HTML",
+        "icon": "fa-brands fa-html5",
+        "styleClass":"TNeonHtml"
+    },
+    {
+        "id": "s5",
+        "name": "Sass",
+        "icon": "fa-brands fa-sass",
+        "styleClass":"TNeonSass"
+    },
+    {
+        "id": "s6",
+        "name": "Bootstrap",
+        "icon": "fa-brands fa-bootstrap",
+        "styleClass":"TNeonBootstrap"
+    },
+    {
+        "id": "s7",
+        "name": "REST API",
+        "icon": "fa-solid fa-file-code",
+        "styleClass":"TNeonRestApi"
+        
+    }
+]
