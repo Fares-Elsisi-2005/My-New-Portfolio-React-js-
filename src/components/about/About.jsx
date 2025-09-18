@@ -19,7 +19,7 @@ const About = () => {
             >
                 <Box width={"50%"} m={"10px"}>
                     <SpotlightCard className="custom-spotlight-card about spotlightCard" spotlightColor="#880fb854">
-                        <img style={{width:"100%", borderRadius:"10px"}} src="../src/assets/me.jpg" alt="" loading="lazy" decoding="async" />
+                        <img style={{width:"100%", borderRadius:"10px"}} src="/assets/me.jpg" alt="" loading="lazy" decoding="async" />
                     </SpotlightCard>
                 </Box>
                 <Box  className='TNeon' width={"50%"} m={"10px"}   sx={{          
