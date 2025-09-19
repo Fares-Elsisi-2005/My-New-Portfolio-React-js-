@@ -32,6 +32,9 @@ body {
   min-height: 100vh;
 }
 
+.highlightSpan{
+  color: #acd1e8;
+}
 
 
 /* Optimized Neon Effects - Reduced GPU load */
@@ -77,9 +80,12 @@ body {
 }
 
 .TNeonBtn:hover {
-  color: #fff;
+  color: #ffffff;
   box-shadow: 0 0 10px #9ccaea, 0 0 20px #9ccaea;
 }
+.TNeonBtn:hover .TNeonSvg 
+ { filter: drop-shadow(0 0 3px currentColor) drop-shadow(0 0 12px currentColor); }
+
 
 /* Optimized SVG Effects */
 .TNeonSvg,
@@ -89,17 +95,16 @@ body {
 .TNeonInstagramSvg,
 .TNeonTelegramSvg {
   color: rgb(184, 250, 250);
-  filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 8px currentColor);
+  /* filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 8px currentColor); */
   transition: filter 0.3s ease;
   will-change: filter;
 }
 
-.TNeonSvg:hover { filter: drop-shadow(0 0 3px currentColor) drop-shadow(0 0 12px currentColor); }
-.NeonPng:hover { filter: drop-shadow(0 0 3px #0077B5) drop-shadow(0 0 12px #0077B5) invert(100); }
-.TNeonlinkedinSvg:hover { filter: drop-shadow(0 0 3px #0077B5) drop-shadow(0 0 12px #0077B5); }
-.TNeonGithupSvg:hover { filter: drop-shadow(0 0 3px #333) drop-shadow(0 0 12px #333); }
-.TNeonInstagramSvg:hover { filter: drop-shadow(0 0 3px #d62976) drop-shadow(0 0 12px #d62976); }
-.TNeonTelegramSvg:hover { filter: drop-shadow(0 0 3px #0088cc) drop-shadow(0 0 12px #0088cc); }
+.NeonPng { filter: drop-shadow(0 0 3px #0077B5) drop-shadow(0 0 12px #0077B5) invert(100); }
+.TNeonlinkedinSvg { filter: drop-shadow(0 0 3px #0077B5) drop-shadow(0 0 12px #0077B5); }
+.TNeonGithupSvg { filter: drop-shadow(0 0 3px #333) drop-shadow(0 0 12px #333); }
+.TNeonInstagramSvg { filter: drop-shadow(0 0 3px #d62976) drop-shadow(0 0 12px #d62976); }
+.TNeonTelegramSvg { filter: drop-shadow(0 0 3px #0088cc) drop-shadow(0 0 12px #0088cc); }
 
 
 .spotlightCard {

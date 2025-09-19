@@ -5,9 +5,9 @@ const Services = () => {
     return (
         <Box textAlign={'center'} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>
               
-            <Box className='TNeon'  maxWidth= "400px" mb={"40px"}>
-                <Typography variant="h3">SERVICES</Typography>
-                <Typography variant="subtitle2">I specialize in designing user experiences, crafting engaging interfaces, and building robust web applications that deliver value and usability.</Typography>
+            <Box   maxWidth= "400px" mb={"40px"}>
+                <Typography className='TNeon' mb={"20px"} variant="h3">SERVICES</Typography>
+                <Typography variant="h6" sx={{fontStyle:"italic"}}>I specialize in designing user experiences, crafting engaging interfaces, and building robust web applications that deliver value and usability.</Typography>
                 </Box>
             
             
@@ -28,7 +28,7 @@ const Services = () => {
                         <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/landingPage.png" alt="landingPage" />
 
                     </Box>
-                    <Box className="TNeon" mt={"20px"} >
+                    <Box /* className="TNeon" */ mt={"20px"} >
                         <Typography>Landing Page Development</Typography>
                         <Typography >Build high-converting landing pages for startups.</Typography>
                     </Box>
@@ -42,7 +42,7 @@ const Services = () => {
                         <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/responsive-page.png" alt="landingPage" />
 
                     </Box>
-                    <Box className="TNeon" mt={"20px"} >
+                    <Box /* className="TNeon" */ mt={"20px"} >
                         <Typography
                         >Responsive Web Design</Typography>
                         <Typography>Websites that look great on any device</Typography>
@@ -56,7 +56,7 @@ const Services = () => {
                         <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/app-development.png" alt="landingPage" />
 
                     </Box>
-                    <Box className="TNeon" mt={"20px"} >
+                    <Box /* className="TNeon" */ mt={"20px"} >
                         <Typography>React Web Applications</Typography>
                         <Typography>Modern, fast, scalable web apps using</Typography>
                     </Box>
@@ -70,7 +70,7 @@ const Services = () => {
                         <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/Api.png" alt="landingPage" />
 
                     </Box>
-                    <Box className="TNeon" mt={"20px"} >
+                    <Box /* className="TNeon" */ mt={"20px"} >
                         <Typography>API Integration</Typography>
                         <Typography> Connect websites with APIs & third-party services.</Typography>
                     </Box>
@@ -84,7 +84,7 @@ const Services = () => {
                         <img className='NeonPng' style={{width:"100%"}} src="/assets/servicesimages/web-layout.png" alt="landingPage" />
 
                     </Box>
-                    <Box className="TNeon" mt={"20px"} >
+                    <Box /* className="TNeon" */ mt={"20px"} >
                     
                         <Typography>Custom Components & UI</Typography>
                         <Typography>Tailored UI elements that fit your brand</Typography>

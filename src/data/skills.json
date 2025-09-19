@@ -1,45 +1,191 @@
 [
     {
+        "id": "cat1",
+        "name": "Programming Languages",
+        "skills":[
+            {
         "id": "s1",
         "name": "JavaScript",
-        "icon": "fa-brands fa-js",
-        "styleClass":"TNeonJavaSript"
+        "image": "/assets/skillsImages/js.png"
+        
     },
     {
         "id": "s2",
         "name": "Python",
-        "icon": "fa-brands fa-python",
-        "styleClass":"TNeonPython"
-    },
+        "image": "/assets/skillsImages/python.png"
+
+    }
+    ,
     {
         "id": "s3",
-        "name": "CSS",
-        "icon": "fa-brands fa-css3-alt",
-        "styleClass":"TNeonCss"
+        "name": "C#",
+        "image": "/assets/skillsImages/c-sharp.png"
+    }
+     
+        ]
     },
+     {
+        "id": "cat2",
+        "name": "Front-end Development",
+        "skills":[
+            {
+        "id": "s1",
+        "name": "Html",
+        "image": "/assets/skillsImages/html-5.png"
+        
+    },
+    {
+        "id": "s2",
+        "name": "CSS",
+        "image": "/assets/skillsImages/css-3.png"
+
+    }
+    ,
+    {
+        "id": "s3",
+        "name": "JavaScript",
+        "image": "/assets/skillsImages/js.png"
+    }
+    ,
     {
         "id": "s4",
-        "name": "HTML",
-        "icon": "fa-brands fa-html5",
-        "styleClass":"TNeonHtml"
-    },
+        "name": "React js",
+        "image": "/assets/skillsImages/programing.png"
+    }
+    ,
+    {
+        "id": "s4",
+        "name": "Bootstrap",
+        "image": "/assets/skillsImages/media.png"
+    }
+    ,
     {
         "id": "s5",
-        "name": "Sass",
-        "icon": "fa-brands fa-sass",
-        "styleClass":"TNeonSass"
-    },
+        "name": "Tailwind CSS",
+        "image": "/assets/skillsImages/Tailwind CSS.png"
+    }
+    ,
     {
         "id": "s6",
-        "name": "Bootstrap",
-        "icon": "fa-brands fa-bootstrap",
-        "styleClass":"TNeonBootstrap"
+        "name": "SASS",
+        "image": "/assets/skillsImages/Sass.png"
+    }
+     
+        ]
     },
     {
-        "id": "s7",
-        "name": "REST API",
-        "icon": "fa-solid fa-file-code",
-        "styleClass":"TNeonRestApi"
+         "id": "cat3",
+        "name": "Back-end Development",
+        "skills":[
+            {
+        "id": "s1",
+        "name": "NPM",
+        "image": "/assets/skillsImages/NPM.png"
+        
+    },
+            {
+        "id": "s2",
+        "name": "Firebase",
+        "image": "/assets/skillsImages/Firebase.png"
+        
+    },
+            {
+        "id": "s3",
+        "name": "JSON",
+        "image": "/assets/skillsImages/folder.png"
+        
+    },
+            {
+        "id": "s4",
+        "name": "Docker",
+        "image": "/assets/skillsImages/Docker.png"
         
     }
+        ]
+    }
+    ,
+    {
+         "id": "cat4",
+        "name": "Artificial Intelligencet",
+        "skills":[
+            {
+        "id": "s1",
+        "name": "ChatGPT",
+        "image": "/assets/skillsImages/chatgpt.png"
+        
+    },
+            {
+        "id": "s2",
+        "name": "Grok",
+        "image": "/assets/skillsImages/grok.png"
+        
+    },
+            {
+        "id": "s3",
+        "name": "Gemini",
+        "image": "/assets/skillsImages/gemini-color.png"
+        
+    }
+    ,
+            {
+        "id": "s4",
+        "name": "DeepSeek",
+        "image": "/assets/skillsImages/deepseek-color.png"
+        
+    }
+    ,
+            {
+        "id": "s5",
+        "name": "Cline",
+        "image": "/assets/skillsImages/cline.png"
+        
+    }
+    ,
+            {
+        "id": "s6",
+        "name": "Bolt",
+        "image": "/assets/skillsImages/flash.png"
+        
+    }
+        ]
+    },
+    {
+         "id": "cat5",
+        "name": "Version Control",
+        "skills":[
+            {
+        "id": "s1",
+        "name": "Git",
+        "image": "/assets/skillsImages/Git.png"
+        
+    },
+            {
+        "id": "s2",
+        "name": "GitHub",
+        "image": "/assets/skillsImages/GitHub.png"
+        
+    }
+        ]
+    },
+    {
+         "id": "cat6",
+        "name": "Spoken Languages",
+        "skills":[
+             {
+        "id": "s1",
+        "name": "Arbic",
+        "image": "/assets/skillsImages/arabic-language.png"
+        
+    },
+             {
+        "id": "s2",
+        "name": "English",
+        "image": "/assets/skillsImages/english-language.png"
+        
+    }
+        ]
+    }
+    
+
+    
 ]

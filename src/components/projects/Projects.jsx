@@ -28,9 +28,9 @@ const Projects = () => {
     return (
         <Box textAlign={'center'} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>
              
-                <Box className='TNeon'  maxWidth= "400px" mb={"40px"}>
-                    <Typography variant="h3">Portfolio</Typography>
-                    <Typography variant="subtitle2">Here's a selection of my recent work, showcasing my skills in creating user-centric and visually appealing interfaces.</Typography>
+                <Box   maxWidth= "400px" mb={"40px"}>
+                    <Typography className='TNeon' mb={"20px"} variant="h3">Portfolio</Typography>
+                    <Typography variant="h6" sx={{fontStyle:"italic"}} >Here's a selection of my recent work, showcasing my skills in creating user-centric and visually appealing interfaces.</Typography>
                 </Box>
              
 
@@ -39,8 +39,7 @@ const Projects = () => {
         {filters.map(f => (
             <Chip   key={f} label={f} clickable sx={{
                 color: active === f ? "#78f3e2ff" : "rgba(255, 255, 255, 1)",
-                textShadow:  " 0 0 5px #fff ,0 0 150px #0ff",
-                transition:"text-shadow 0.7s"
+                
               }} onClick={() => setActive(f)} />
         ))}
                 
@@ -80,9 +79,9 @@ const Projects = () => {
                     <CardContent sx={{ flex: 1 }}>
                         <Typography className="TNeon" variant="h6" sx={{ fontWeight: 700 }}>{p.title}</Typography>
                         <Stack direction="row" spacing={1} sx={{ my: 3, flexWrap: 'wrap' }}>
-                        {(p.tech || []).map(tag => (<Chip key={tag} label={tag} size="small" sx={{color:"#fff",textShadow:  " 0 0 5px #fff ,0 0 150px #0ff"}} onClick={() => setActive(tag)} />))}
+                        {(p.tech || []).map(tag => (<Chip key={tag} label={tag} size="small" sx={{color:"#fff" }} onClick={() => setActive(tag)} />))}
                         </Stack>
-                        <Typography className="TNeon" variant="body2" sx={{ opacity: 0.85 }}>{p.description}</Typography>
+                        <Typography /* className="TNeon" */ variant="body2" sx={{ opacity: 0.85,color:"#fff" }}>{p.description}</Typography>
                     </CardContent>
                     <CardActions sx={{alignSelf:"center", m:"20px"}}>
                         <Button className="TNeonBtn" sx={{color:"#fff"}} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button>

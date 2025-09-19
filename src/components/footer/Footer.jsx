@@ -36,14 +36,17 @@ const Footer = () => {
         }}>
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} gap={"20px"}>
                 <Avatar sx={{width:"80px", height:"80px"}}  alt="Fares Ahmed" src="/assets/team-1.png" />
-                <Typography  className="TNeon" variant="h4">Fares Ahmed</Typography>
+                <Typography sx={{fontStyle:"italic"}} variant="h4">Fares Ahmed</Typography>
             </Box>
             <Box display={"flex"} flexWrap={"wrap"}>
                 {navItems.map((item) => (
                     <ScrollLink to={item.to} smooth duration={500} offset={-80} spy  >
-                        <Button className="TNeon" sx={{
+                        <Button  sx={{
                         color:"#ebf7f5ff",
-                        fontWeight: 600,
+                            fontWeight: 600,
+                            "&:hover": {
+                            color:"#80ccf9ff"
+                        }
                         
                         }}>{item.label}</Button>
                     </ScrollLink>
@@ -53,13 +56,13 @@ const Footer = () => {
                 
             </Box>
             <Box>
-                <Typography className="TNeon">Copyright © 2025 Fares</Typography>
+                <Typography >Copyright © 2025 Fares</Typography>
             </Box>
             
 
             </Box>
             <Box>
-                <Typography className="TNeon">Developed with ❤️ by Fares</Typography>
+                <Typography className="TNeon">Developed with ❤️ by Fares Ahmed</Typography>
             </Box>
        </Box>
     )

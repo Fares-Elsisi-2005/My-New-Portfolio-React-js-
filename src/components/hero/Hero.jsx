@@ -24,16 +24,16 @@ export default function Hero() {
       <Stack spacing={2} sx={{ maxWidth: 800 ,margin:"20px" }}>
         <Typography className='TNeon'  component="h1" variant="h3" sx={{ fontWeight: 700 }}>Hello, I am Fares</Typography>
         <Typography className='TNeon' component="h2" variant="h4" sx={{ fontWeight: 700 }}>Frontend Developer</Typography>
-        <Typography className='TNeon' variant="h6" sx={{ opacity: 0.9 }}>I build modern and responsive client-side web apps.</Typography>
+        <Typography /* className='TNeon' */ variant="h6" sx={{ opacity: 0.9, color:"#fff" }}>I build modern and responsive client-side web apps.</Typography>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={4} justifyContent="center" sx={{ mt: 2 }}>
          
-          <Button  className='TNeon TNeonBtn' variant="outlined" color="inherit"   startIcon={<DownloadIcon className='TNeonSvg' />} sx={{color:"white", borderRadius:"20px"}} component="a" href="/assets/cv/FaresAhmedSalah_FrontendDeveloper.pdf" download aria-label="Download Resume">Download Resume</Button>
+          <Button  className='TNeonBtn' variant="outlined" color="inherit"   startIcon={<DownloadIcon className='TNeonSvg' />} sx={{color:"white", borderRadius:"20px", fontStyle:"italic"}} component="a" href="/assets/cv/FaresAhmedSalah_FrontendDeveloper.pdf" download aria-label="Download Resume">Download Resume</Button>
           <ScrollLink to="contact" smooth duration={500} offset={-80}>
-              <Button className='TNeon TNeonBtn' variant="outlined" color="inherit" sx={{ color: "#fff", backdropFilter: 'blur(10px)', background: 'rgba(17, 24, 39, 0.5)', borderRadius: "20px" }} startIcon={<WorkIcon className='TNeonSvg' />} component="a" href="mailto:fares@example.com" aria-label="Hire Me">Hire Me</Button>
+              <Button className='TNeonBtn' variant="outlined" color="inherit" sx={{ color: "#fff", backdropFilter: 'blur(10px)', background: 'rgba(17, 24, 39, 0.5)', borderRadius: "20px",fontStyle:"italic" }} startIcon={<WorkIcon className='TNeonSvg' />} component="a" href="mailto:fares@example.com" aria-label="Hire Me">Hire Me</Button>
           </ScrollLink>
               
           <ScrollLink to="projects" smooth duration={500} offset={-80}>
-            <Button className='TNeon TNeonBtn' sx={{borderRadius:"20px"}} variant="outlined" color="inherit" startIcon={<VisibilityIcon className='TNeonSvg'  />} aria-label="View My Work">View My Work</Button>
+            <Button className='TNeonBtn' sx={{borderRadius:"20px",fontStyle:"italic"}} variant="outlined" color="inherit" startIcon={<VisibilityIcon className='TNeonSvg'  />} aria-label="View My Work">View My Work</Button>
           </ScrollLink>
         </Stack>
        
@@ -46,15 +46,15 @@ export default function Hero() {
        } alt="Fares Ahmed" src="/assets/team-1.png" />
           <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1 }}>
             <Tooltip title="linkedin">
-              <IconButton   component="a" href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>
+              <IconButton   component="a" href="https://www.linkedin.com/in/fares-elsisi-613732321/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>
 
             </Tooltip>
             <Tooltip title="github">
-              <IconButton   component="a" href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon className='TNeonGithupSvg' /></IconButton>
+              <IconButton   component="a" href="https://github.com/Fares-Elsisi-2005" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon className='TNeonGithupSvg' /></IconButton>
 
             </Tooltip>
             <Tooltip title="instagram">
-              <IconButton   component="a" href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon className='TNeonInstagramSvg' /></IconButton>
+              <IconButton   component="a" href="https://www.instagram.com/fareselsise?igsh=MW55dGduM3FiZzY3aQ==" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon className='TNeonInstagramSvg' /></IconButton>
 
             </Tooltip>
             {/* <Tooltip title="telegram">

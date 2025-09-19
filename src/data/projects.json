@@ -156,7 +156,7 @@
   }
   ,
   {
-    "id": "p13",
+    "id": "p14",
     "title": "Portofolio website 2",
     "thumbnail": "/assets/projectsImages/Template2Image.png",
     "tech": [ "HTML & CSS"],
@@ -168,7 +168,7 @@
   }
   ,
   {
-    "id": "p14",
+    "id": "p15",
     "title": "Clothes Store website",
     "thumbnail": "/assets/projectsImages/ClothsWebsiteImage.png",
     "tech": [ "HTML & CSS"],
@@ -180,7 +180,7 @@
   }
   ,
   {
-    "id": "p15",
+    "id": "p16",
     "title": "Interior Design Website",
     "thumbnail": "/assets/projectsImages/interiorDesignWebsiteImage.png",
     "tech": [ "HTML & CSS"],
@@ -192,7 +192,7 @@
   }
   ,
   {
-    "id": "p16",
+    "id": "p17",
     "title": "Social media dashboard",
     "thumbnail": "/assets/projectsImages/htmlCss_socialMediaDashboard.png",
     "tech": [ "HTML & CSS"],
@@ -205,7 +205,7 @@
    
   ,
   {
-    "id": "p17",
+    "id": "p18",
     "title": "Dashboard page",
     "thumbnail": "/assets/projectsImages/hrmlCssDashboard2.png",
     "tech": [ "HTML & CSS"],
@@ -217,7 +217,7 @@
   }
   ,
   {
-    "id": "p18",
+    "id": "p19",
     "title": "Restaurant Webiste",
     "thumbnail": "/assets/projectsImages/htmlCssrestaurant6.png",
     "tech": [ "HTML & CSS"],
@@ -229,7 +229,7 @@
   }
   ,
   {
-    "id": "p19",
+    "id": "p20",
     "title": "Creative menu",
     "thumbnail": "/assets/projectsImages/htmlCssCreativeMenu3.png",
     "tech": [ "HTML & CSS"],
@@ -241,7 +241,7 @@
   }
   ,
   {
-    "id": "p20",
+    "id": "p21",
     "title": "Glassy website",
     "thumbnail": "/assets/projectsImages/htmlCssGlassyWebsite4.png",
     "tech": [ "HTML & CSS"],
@@ -254,7 +254,7 @@
   
    ,
   {
-    "id": "p21",
+    "id": "p22",
     "title": "Prayer times",
     "thumbnail": "/assets/projectsImages/api_prayingTimes.png",
     "tech": ["JavaScript", "HTML & CSS", "API" ],

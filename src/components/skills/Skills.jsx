@@ -9,54 +9,69 @@ const Skills = () => {
     return (
         <Box textAlign={'center'} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>
            
-                <Box className='TNeon'  maxWidth= "400px" mb={"40px"}>
-                    <Typography variant="h3">Skills</Typography>
-                    <Typography variant="subtitle2">see my skills</Typography>
+                <Box    maxWidth= "400px" mb={"40px"}>
+                    <Typography className='TNeon' mb={"20px"} variant="h3">Skills</Typography>
+                    <Typography variant="h6"  >What I’m Good At</Typography>
                 </Box>
              
             
             <Box sx={{
             display: "flex",
             justifyContent: "center",
-            flexDirection: "row",
+            flexDirection: "column",
             flexWrap: "wrap",
             gap:"20px"
             }}>
                 
-                {skillsData.map((skill) => (
-                    <Box key={skill.id}
+                {skillsData.map((category) => (
+                    <Box
                         sx={{
-                            backgroundColor: "#0402021a",
-                            padding: "20px",
-                            borderRadius: "10px",
-                            boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
-                            textAlign: "center",
-                            width: "150px",
-                            transition: "0.7s ease",
-                            "&:hover": {
-                                transform:"scale(1.1)"
-                            }
-                        }}
-                    >
-                        <Box className= {skill.styleClass}
-                            sx={{
-                                
-                                fontSize: "3em",
-                                mb:"10px"
-                        }}>
-                            <i class={skill.icon}></i>
-
-                        </Box>
-                            <Typography className='TNeon' sx={{
+            display: "flex",
+                            justifyContent: "center",
+            alignItems:"center",
+            flexDirection: "column",
+            flexWrap: "wrap",
+                            gap: "20px",
+            mb:"25px"
+            }}
+                        key={category.id}>
+                        <Typography  variant='h5' className='TNeon' >{category.name}</Typography>
+                        <Box
+                        sx={{
+            display: "flex",
+                            justifyContent: "center",
+            alignItems:"center",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            gap:"20px"
+                            }}>
+                            {category.skills.map((skill) => (
+                                        <Box key={skill.id}
+                                            sx={{
+                                                backgroundColor: "#0402021a",
+                                                padding: "20px",
+                                                borderRadius: "10px",
+                                                boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
+                                                textAlign: "center",
+                                                width: "100px",
+                                                transition: "0.7s ease",
+                                                "&:hover": { transform:"scale(1.1)" }
+                                            }}
+                                        >
+                                            <Box sx={{ fontSize: "3em", mb:"10px" }}>
+                                                <img style={{width:"100%"}} src={skill.image} alt={skill.name} />
+                                            </Box>
+                                            <Typography sx={{ fontSize: "1.1em", fontWeight: "600" }} variant='h3'>
+                                                {skill.name}
+                                            </Typography>
+                                        </Box>
+                        ))}
                             
-                            fontSize: "1.1em",
-                            fontWeight: "600"
-                        }} variant='h3'>{skill.name}</Typography>
+            </Box>
+                        
+
                     </Box>
             ))}
-             
-               
-
 
             </Box>
         </Box>

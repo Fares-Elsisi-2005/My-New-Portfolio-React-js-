@@ -112,9 +112,9 @@ const ContactForm = () => {
                     
                 }}> 
                     {!isMobile ? <Typography className="TNeon" variant={"h3"}>Let’s discuss your Project</Typography> : null}
-                    <Typography sx={{fontSize:"20px",color:"#f2eeeeec", maxWidth:"400px"}} className="TNeon" mb={"30px"}>I'm available for freelance work. Drop me a line if you have a project you think I'd be a good fit for.</Typography>
+                    <Typography sx={{fontSize:"20px", fontStyle:"italic",color:"#f2eeeeec", maxWidth:"400px"}} mb={"30px"}>I'm available for freelance work. Drop me a line if you have a project you think I'd be a good fit for.</Typography>
                     
-                <Box className="TNeon"  
+                <Box 
                      sx={{
                             backgroundColor: "#0402021a",
                             padding: "20px",
@@ -133,13 +133,13 @@ const ContactForm = () => {
                             
                         }}
                  >
-                    <i style={{fontSize:"30px"}} className="fa-solid fa-location-pin"></i>
-                    <Box>
+                    <i    style={{fontSize:"30px"}} className="fa-solid fa-location-pin TNeon"></i>
+                    <Box fontStyle={"italic"}>
                         <Typography >Address:</Typography>
                         <Typography>Egypt/Cairo</Typography>
                     </Box>
                 </Box>
-                <Box className="TNeon"  
+                <Box   
                      sx={{
                             backgroundColor: "#0402021a",
                             padding: "20px",
@@ -157,14 +157,14 @@ const ContactForm = () => {
                             gap:"20px"
                         }}
                  >
-                    <i style={{fontSize:"30px"}} class="fa-solid fa-envelope"></i>
-                    <Box>
+                    <i style={{fontSize:"30px"}} class="fa-solid fa-envelope TNeon"></i>
+                    <Box fontStyle={"italic"}>
                         <Typography >My Email:</Typography>
                         <Typography>fareselsisi35@gmail.com</Typography>
                     </Box>
                 </Box>
                 
-                <Box className="TNeon"  
+                <Box  
                      sx={{
                             backgroundColor: "#0402021a",
                             padding: "20px",
@@ -184,8 +184,8 @@ const ContactForm = () => {
                             
                         }}
                  >
-                    <i style={{fontSize:"30px"}} class="fa-solid fa-phone-flip"></i>
-                    <Box>
+                    <i style={{fontSize:"30px"}} class="fa-solid fa-phone-flip TNeon"></i>
+                    <Box fontStyle={"italic"}>
                         <Typography >My phone:</Typography>
                         <Typography>01013353405</Typography>
                     </Box>
@@ -193,15 +193,15 @@ const ContactForm = () => {
                     
                      <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1 , mb:"30px"}}>
                                 <Tooltip title="linkedin">
-                                  <IconButton   component="a" href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>
+                                    <IconButton   component="a" href="https://www.linkedin.com/in/fares-elsisi-613732321/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>
                     
                                 </Tooltip>
                                 <Tooltip title="github">
-                                  <IconButton   component="a" href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon className='TNeonGithupSvg' /></IconButton>
+                                    <IconButton   component="a" href="https://github.com/Fares-Elsisi-2005" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon className='TNeonGithupSvg' /></IconButton>
                     
                                 </Tooltip>
                                 <Tooltip title="instagram">
-                                  <IconButton   component="a" href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon className='TNeonInstagramSvg' /></IconButton>
+                                    <IconButton   component="a" href="https://www.instagram.com/fareselsise?igsh=MW55dGduM3FiZzY3aQ==" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon className='TNeonInstagramSvg' /></IconButton>
                     
                                 </Tooltip>
                                 {/* <Tooltip title="telegram">
@@ -218,7 +218,7 @@ const ContactForm = () => {
                     order: isMobile?"1":"0" , width: isMobile ? "100%" : "50%", display:"flex",justifyContent:"space-between",textAlign:"center",flexDirection:"column",gap:"30px",mb:"20px" }} p="20px" borderRadius={"10px"}>
                     {isMobile ? <Typography className="TNeon" variant={"h3"}>Let’s discuss your Project</Typography> : null}
                    
-                    <Typography sx={{fontSize:"20px", color:"#f2eeeeec"}} className="TNeon">I'm always open to discussing product design work or partnership opportunities.</Typography>
+                    <Typography sx={{fontSize:"20px",fontStyle:"italic", color:"#f2eeeeec"}} >I'm always open to discussing product design work or partnership opportunities.</Typography>
  
                 
                 <Formik
@@ -254,13 +254,13 @@ const ContactForm = () => {
                                     // Label default (unfocused)
                                     "& .MuiInputLabel-root": {
                                     color: "#fff",
-                                    textShadow: "0 0 5px #fff, 0 0 80px rgba(248, 255, 255, 1)",
+                                     
                                     },
 
                                     // Label focused
                                     "& .MuiInputLabel-root.Mui-focused": {
                                     color: "rgba(233, 241, 241, 1)",
-                                    textShadow: "0 0 8px #0ff, 0 0 120px rgba(211, 227, 227, 1)",
+                                    
                                     },
 
                                     // Label error
@@ -311,13 +311,13 @@ const ContactForm = () => {
                                     // Label default (unfocused)
                                     "& .MuiInputLabel-root": {
                                     color: "#fff",
-                                    textShadow: "0 0 5px #fff, 0 0 80px rgba(248, 255, 255, 1)",
+                                     
                                     },
 
                                     // Label focused
                                     "& .MuiInputLabel-root.Mui-focused": {
                                     color: "rgba(233, 241, 241, 1)",
-                                    textShadow: "0 0 8px #0ff, 0 0 120px rgba(211, 227, 227, 1)",
+                                     
                                     },
 
                                     // Label error
@@ -367,13 +367,13 @@ const ContactForm = () => {
                                     // Label default (unfocused)
                                     "& .MuiInputLabel-root": {
                                     color: "#fff",
-                                    textShadow: "0 0 5px #fff, 0 0 80px rgba(248, 255, 255, 1)",
+                                     
                                     },
 
                                     // Label focused
                                     "& .MuiInputLabel-root.Mui-focused": {
                                     color: "rgba(233, 241, 241, 1)",
-                                    textShadow: "0 0 8px #0ff, 0 0 120px rgba(211, 227, 227, 1)",
+                                     
                                     },
 
                                     // Label error
@@ -423,13 +423,13 @@ const ContactForm = () => {
                                 // Label default (unfocused)
                                 "& .MuiInputLabel-root": {
                                 color: "#fff",
-                                textShadow: "0 0 5px #fff, 0 0 80px rgba(248, 255, 255, 1)",
+                                 
                                 },
 
                                 // Label focused
                                 "& .MuiInputLabel-root.Mui-focused": {
                                 color: "rgba(233, 241, 241, 1)",
-                                textShadow: "0 0 8px #0ff, 0 0 120px rgba(211, 227, 227, 1)",
+                                 
                                 },
 
                                 // Label error
@@ -467,7 +467,7 @@ const ContactForm = () => {
                             </Box>
 
                             <Box display="flex" justifyContent="end" mt="20px">
-                                <Button type="submit"  className="TNeon TNeonBtn" color="#fff" variant="outlined">
+                                <Button type="submit"  className=" TNeonBtn" color="#fff" variant="outlined">
                                    <i style={{marginRight:"10px"}} class="fa-solid fa-paper-plane"></i> Send Message 
                                 </Button>
                             </Box>

@@ -1,5 +1,5 @@
 import { useEffect, lazy, Suspense } from "react";
-import { Element } from 'react-scroll'
+import { Element,animateScroll } from 'react-scroll'
 import Silk from './background/Silk'; // Import directly for immediate loading
 const GradualBlur = lazy(() => import('./gradualBlur/gradualBlur'))
 const NavBar = lazy(() => import("./components/navbar/NavBar"))
@@ -11,6 +11,7 @@ const About = lazy(() => import("./components/about/About"))
 const Achivements = lazy(() => import("./components/achivements/Achivements"))
 const ContactForm = lazy(() => import("./components/contact/Contact"))
 const Footer = lazy(() => import("./components/footer/Footer"))
+import ScrollToTopButton from "./components/gradialBlur/GradualBlur"
 import { ToastContainer } from 'react-toastify';
 
  
@@ -72,7 +73,10 @@ function App() {
           exponential={true}
           opacity={1}
         />
+
       </div>
+        <ScrollToTopButton onClick={() => animateScroll.scrollToTop({ smooth: true })} />
+
     </div>
   )
 }
