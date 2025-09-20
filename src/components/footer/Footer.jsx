@@ -20,11 +20,12 @@ const Footer = () => {
         const isMobile = useMediaQuery("(max-width:800px)");
     
     return (
-        <Box backdropFilter={'blur(20px)'} backgroundColor={"#061621b9"} minHeight={"60vh"} sx={{ display: "flex",
+        <Box backdropFilter={'blur(20px)'} backgroundColor={"#061621b9"} minHeight={"35vh"} sx={{ display: "flex",
             justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
-            gap:"20px"
+            gap:"20px",
+            padding:"20px"
         }}>
              <Box  sx={{
             display: "flex",
