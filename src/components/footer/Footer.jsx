@@ -17,10 +17,10 @@ const navItems = [
 
 
 const Footer = () => {
-        const isMobile = useMediaQuery("(max-width:800px)");
+        const isMobile = useMediaQuery("(max-width:900px)");
     
     return (
-        <Box backdropFilter={'blur(20px)'} backgroundColor={"#061621b9"} minHeight={"35vh"} sx={{ display: "flex",
+        <Box backdropFilter={'blur(20px)'} backgroundColor={"#061621b9"} minHeight={isMobile ? "55vh" : "35vh"} sx={{ display: "flex",
             justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
