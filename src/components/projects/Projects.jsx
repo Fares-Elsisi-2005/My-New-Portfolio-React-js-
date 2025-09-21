@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent'
 import CardActions from '@mui/material/CardActions'
 import Button from '@mui/material/Button'
+import Tooltip from '@mui/material/Tooltip'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import projectsData from '../../data/projects.json';
 import GlassCard from '../glassCard/GlassCard';
@@ -83,8 +84,14 @@ const Projects = () => {
                         </Stack>
                         <Typography /* className="TNeon" */ variant="body2" sx={{ opacity: 0.85,color:"#fff" }}>{p.description}</Typography>
                     </CardContent>
-                    <CardActions sx={{alignSelf:"center", m:"20px"}}>
-                        <Button className="TNeonBtn" sx={{color:"#fff"}} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button>
+                            <CardActions sx={{ alignSelf: "center", m: "20px" }}>
+                                {p.demo ?
+                                    <Button className="TNeonBtn" sx={{ color: "#fff" }} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button> :
+                                     <Tooltip title="no demo link now">
+                                        <Button className="TNeonBtn" disabled sx={{ color: "#726b6bff" }} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button>
+                                    </Tooltip>
+                                }
+                        
                         <Button className='TNeonBtn' sx={{color:"#fff"}} size="small" href={p.repo} target="_blank" rel="noreferrer">GitHub</Button>
                     </CardActions>
                     </GlassCard>

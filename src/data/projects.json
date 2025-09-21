@@ -1,13 +1,24 @@
 
 [
   {
+    "id": "p0",
+    "title": "My Official Portofolio Website",
+    "thumbnail": "../../public/assets/projectsImages/myoffcialPortfolio.png",
+    "tech": ["React", "Material UI"],
+    "category": [ "React + Material UI","JavaScript","HTML & CSS","formik","yup","emailjs","react bits","react toastify","react scroll"],
+    "description": " This is my official portfolio website built with React and Material UI. It showcases my projects, skills, and experience in web development. ",
+    "demo": "https://faresahmedelsisi.netlify.app/",
+    "repo": "https://github.com/Fares-Elsisi-2005/My-New-Portfolio-React-js-",
+    "featured": true
+  },
+  {
     "id": "p1",
     "title": "Netflix Clone",
     "thumbnail": "/assets/projectsImages/netflixClone.png",
     "tech": ["React", "Material UI", "API"],
     "category": ["Clone", "React + Material UI", "API Projects", "JavaScript","HTML & CSS"],
     "description": "A Netflix clone built with React, Material UI, and TMDB API. It features user authentication, movie browsing, and a responsive design for an engaging user experience.",
-    "demo": "notAvailable:(Demo is not available bec. production issues)",
+    "demo": "",
     "repo": "https://github.com/Fares-Elsisi-2005/moviesWebsite",
     "featured": true
   },
