@@ -64,7 +64,15 @@ const Projects = () => {
                 {filtered.map(p => (
                 <Grid item xs={12} sm={6} md={4} key={p.id} sx={{ display: 'flex',m:"20px", maxHeight:"700px"  }}>
                     <GlassCard  sx={{ display: 'flex', flexDirection: 'column', flex: 1, transition: 'transform 200ms ease, box-shadow 200ms ease', '&:hover': { transform: 'translateY(-4px) scale(1.01)', boxShadow: 8 } }}>
-                    {p.thumbnail && (
+                   
+                    <CardContent sx={{ flex: 1 }}>
+                        <Typography className="TNeon" variant="h6" sx={{ fontWeight: 700 }}>{p.title}</Typography>
+                        <Stack direction="row" spacing={1} sx={{ my: 3, flexWrap: 'wrap' }}>
+                        {(p.tech || []).map(tag => (<Chip key={tag} label={tag} size="small" sx={{color:"#fff" }} onClick={() => setActive(tag)} />))}
+                        </Stack>
+                        <Typography /* className="TNeon" */ variant="body2" sx={{ opacity: 0.85,color:"#fff" }}>{p.description}</Typography>
+                            </CardContent>
+                             {p.thumbnail && (
                         <LazyLoadImage
                           src={p.thumbnail}
                           alt={`${p.title} thumbnail`}
@@ -77,13 +85,6 @@ const Projects = () => {
                           }}
                         />
                     )}
-                    <CardContent sx={{ flex: 1 }}>
-                        <Typography className="TNeon" variant="h6" sx={{ fontWeight: 700 }}>{p.title}</Typography>
-                        <Stack direction="row" spacing={1} sx={{ my: 3, flexWrap: 'wrap' }}>
-                        {(p.tech || []).map(tag => (<Chip key={tag} label={tag} size="small" sx={{color:"#fff" }} onClick={() => setActive(tag)} />))}
-                        </Stack>
-                        <Typography /* className="TNeon" */ variant="body2" sx={{ opacity: 0.85,color:"#fff" }}>{p.description}</Typography>
-                    </CardContent>
                             <CardActions sx={{ alignSelf: "center", m: "20px" }}>
                                 {p.demo ?
                                     <Button className="TNeonBtn" sx={{ color: "#fff" }} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button> :

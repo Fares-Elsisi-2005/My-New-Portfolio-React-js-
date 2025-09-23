@@ -2,7 +2,7 @@
 [
   {
     "id": "p0",
-    "title": "My Official Portofolio Website",
+    "title": "My  Portofolio Website",
     "thumbnail": "/assets/projectsImages/myoffcialPortfolio.png",
     "tech": ["React", "Material UI"],
     "category": [ "React + Material UI","JavaScript","HTML & CSS","formik","yup","emailjs","react bits","react toastify","react scroll"],
