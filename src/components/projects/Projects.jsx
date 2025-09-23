@@ -14,7 +14,7 @@ import GlassCard from '../glassCard/GlassCard';
 import "./Projects.css"
 import 'react-lazy-load-image-component/src/effects/blur.css'
 
-const filters = ['All','Clone','Featured','HTML & CSS','JavaScript','Bootstrap','React + Material UI','Fullstack Projects','API Projects','Personal Projects']
+const filters = ['All','Personal Projects',"Not Completed",'Featured','Clone','HTML & CSS','JavaScript','Bootstrap','React + Material UI','Fullstack Projects','API Projects']
 
 
 const Projects = () => {

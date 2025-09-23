@@ -1,6 +1,17 @@
 
 [
   {
+    "id": "p00",
+    "title": "Courses Platform (just the UI)",
+    "thumbnail": "/assets/projectsImages/coursesPlatfrom.png",
+    "tech": ["React", "Material UI","formik","yup","react dropzone","react player", "React Router"],
+    "category": [ "React + Material UI","JavaScript","HTML & CSS","Fullstack Projects", "Personal Projects","Not Completed"],
+    "description": "A modern, responsive online education platform built with React and Vite that connects students with teachers and provides a seamless learning experience. (still under development)",
+    "demo": "https://educaplatform.netlify.app/",
+    "repo": "https://github.com/Fares-Elsisi-2005/Courses-Platform-?tab=readme-ov-file",
+    "featured": true
+  },
+  {
     "id": "p0",
     "title": "My  Portofolio Website",
     "thumbnail": "/assets/projectsImages/myoffcialPortfolio.png",

@@ -26,7 +26,7 @@ const About = () => {
                     
                 }}>
                     <Typography sx={{fontStyle:"italic"}} variant="subtitle2">
-                           "Hi, I’m Fares, a 20-year-old  <sapn class="highlightSpan">Frontend developer</sapn> based in Cairo. I started programming <span class="highlightSpan">two years</span> ago, beginning with Python and small console applications. Over time, I explored programming fundamentals, data structures, and OOP with C#. Eventually, I found my passion in frontend development. Currently, I’m building a <span class="highlightSpan">full courses platform</span> using React, Material UI, and Firebase. I also enjoy creating side projects—like a <span class="highlightSpan">web-scraping app</span> that downloads manhwa From a manhwa website and turn it to  PDFs, and an <span class="highlightSpan">OCR-based translator</span> that helps users learn English while reading. I’m always eager to improve my skills and build meaningful applications."
+                           "Hi, I’m Fares, a 20-year-old  <sapn class="highlightSpan">Frontend developer</sapn> based in Cairo. I started programming <span class="highlightSpan">two years</span> ago, beginning with Python and small console applications. Over time, I explored programming fundamentals, data structures, and OOP with C#. Eventually, I found my passion in frontend development. Currently, I’m building a <span class="highlightSpan">full courses platform</span> using React, Material UI, and Firebase.  I’m always eager to improve my skills and build meaningful applications."
                      </Typography>
                 </Box>
             </Box>
