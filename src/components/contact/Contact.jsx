@@ -14,6 +14,8 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import TelegramIcon from '@mui/icons-material/Telegram'
 import { toast } from 'react-toastify';
+import { useTheme } from '@mui/material/styles';
+import { tokens } from "../../theme"; 
 
 
 const initialValues = {
@@ -48,8 +50,8 @@ const ContactForm = () => {
     const handleFormSubmit = async (values, { resetForm }) => {
     const templateId ="template_qu2vkw7";     // from EmailJS dashboard
     const  serviceId = "service_tp3amgs";   // from EmailJS dashboard
-    const publicKey =  import.meta.env.VITE_PUBLIC_KEY;     // from EmailJS dashboard
-
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;     // from EmailJS dashboard
+   
     const data = {
         service_id: serviceId,
         template_id: templateId,
@@ -92,13 +94,16 @@ const ContactForm = () => {
         theme: "colored",
         });
   }
-};
+    };
+     const theme = useTheme();
+    const colors = tokens(theme.palette.mode);
+
     return (
         
 
         <Box  sx={{boxSizing:"border-box"}}  display={"flex"} justifyContent={"center"} alignItems={"center"} mb={"80px"} p="30px" >
 
-            <Box maxWidth={"1100px"} backdropFilter={'blur(20px)'} backgroundColor={"#093e6198"} p="25px" borderRadius={"10px"} display={"flex"} flexDirection={isMobile ? "column" : "row"} justifyContent={"center"} alignItems={"center"} gap={"30px"} m={"30px"} sx={{ boxShadow: " rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px", }}>
+            <Box maxWidth={"1100px"} backdropFilter={'blur(20px)'}   p="25px" borderRadius={"10px"} display={"flex"} flexDirection={isMobile ? "column" : "row"} justifyContent={"center"} alignItems={"center"} gap={"30px"} m={"30px"}  >
                 <Box
                     sx={{
                     width: isMobile ? "100%" : "50%" ,
@@ -111,12 +116,12 @@ const ContactForm = () => {
                       textAlign:"center"
                     
                 }}> 
-                    {!isMobile ? <Typography className="TNeon" variant={"h3"}>Let’s discuss your Project</Typography> : null}
-                    <Typography sx={{fontSize:"20px", fontStyle:"italic",color:"#f2eeeeec", maxWidth:"400px"}} mb={"30px"}>I'm available for freelance work. Drop me a line if you have a project you think I'd be a good fit for.</Typography>
+                    {!isMobile ? <Typography className="TNeon" variant={"h3"} sx={{color:colors.secondary[100]}}>Let’s discuss your Project</Typography> : null}
+                    <Typography sx={{fontSize:"20px", fontStyle:"italic",color: colors.secondary[100], maxWidth:"400px"}} mb={"30px"}>I'm available for freelance work. Drop me a line if you have a project you think I'd be a good fit for.</Typography>
                     
                 <Box 
                      sx={{
-                            backgroundColor: "#0402021a",
+                            backgroundColor: "#ded3d382",
                             padding: "20px",
                             borderRadius: "10px",
                             boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
@@ -133,8 +138,8 @@ const ContactForm = () => {
                             
                         }}
                  >
-                    <i    style={{fontSize:"30px"}} className="fa-solid fa-location-pin TNeon"></i>
-                    <Box fontStyle={"italic"}>
+                    <i    style={{color:colors.secondary[100],fontSize:"30px"}} className="fa-solid fa-location-pin TNeon"></i>
+                    <Box sx={{color:colors.secondary[100]}} fontStyle={"italic"}>
                         <Typography >Address:</Typography>
                         <Typography>Egypt/Cairo</Typography>
                          
@@ -142,7 +147,7 @@ const ContactForm = () => {
                 </Box>
                 <Box   
                      sx={{
-                            backgroundColor: "#0402021a",
+                            backgroundColor: "#ded3d382",
                             padding: "20px",
                             borderRadius: "10px",
                             boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
@@ -158,8 +163,8 @@ const ContactForm = () => {
                             gap:"20px"
                         }}
                  >
-                    <i style={{fontSize:"30px"}} class="fa-solid fa-envelope TNeon"></i>
-                    <Box fontStyle={"italic"}>
+                    <i style={{color:colors.secondary[100],fontSize:"30px"}} class="fa-solid fa-envelope TNeon"></i>
+                    <Box sx={{color:colors.secondary[100]}} fontStyle={"italic"}>
                         <Typography >My Email:</Typography>
                         <Typography>fareselsisi35@gmail.com</Typography>
                     </Box>
@@ -167,7 +172,7 @@ const ContactForm = () => {
                 
                 <Box  
                      sx={{
-                            backgroundColor: "#0402021a",
+                            backgroundColor: "#ded3d382",
                             padding: "20px",
                             borderRadius: "10px",
                             boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
@@ -185,8 +190,8 @@ const ContactForm = () => {
                             
                         }}
                  >
-                    <i style={{fontSize:"30px"}} class="fa-solid fa-phone-flip TNeon"></i>
-                    <Box fontStyle={"italic"}>
+                    <i style={{color:colors.secondary[100],fontSize:"30px"}} class="fa-solid fa-phone-flip TNeon"></i>
+                    <Box sx={{color:colors.secondary[100]}} fontStyle={"italic"}>
                         <Typography >My phone:</Typography>
                         <Typography>01013353405</Typography>
                     </Box>
@@ -194,15 +199,15 @@ const ContactForm = () => {
                     
                      <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1 , mb:"30px"}}>
                                 <Tooltip title="linkedin">
-                                    <IconButton   component="a" href="https://www.linkedin.com/in/fares-elsisi-613732321/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>
+                                    <IconButton sx={{color:colors.secondary[100]}}   component="a" href="https://www.linkedin.com/in/fares-elsisi-613732321/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>
                     
                                 </Tooltip>
                                 <Tooltip title="github">
-                                    <IconButton   component="a" href="https://github.com/Fares-Elsisi-2005" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon className='TNeonGithupSvg' /></IconButton>
+                                    <IconButton sx={{color:colors.secondary[100]}}   component="a" href="https://github.com/Fares-Elsisi-2005" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon className='TNeonGithupSvg' /></IconButton>
                     
                                 </Tooltip>
                                 <Tooltip title="instagram">
-                                    <IconButton   component="a" href="https://www.instagram.com/fareselsise?igsh=MW55dGduM3FiZzY3aQ==" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon className='TNeonInstagramSvg' /></IconButton>
+                                    <IconButton sx={{color:colors.secondary[100]}}   component="a" href="https://www.instagram.com/fareselsise?igsh=MW55dGduM3FiZzY3aQ==" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon className='TNeonInstagramSvg' /></IconButton>
                     
                                 </Tooltip>
                                 {/* <Tooltip title="telegram">
@@ -217,9 +222,9 @@ const ContactForm = () => {
                 </Box>
                 <Box sx={{
                     order: isMobile?"1":"0" , width: isMobile ? "100%" : "50%", display:"flex",justifyContent:"space-between",textAlign:"center",flexDirection:"column",gap:"30px",mb:"20px" }} p="20px" borderRadius={"10px"}>
-                    {isMobile ? <Typography className="TNeon" variant={"h3"}>Let’s discuss your Project</Typography> : null}
+                    {isMobile ? <Typography className="TNeon" variant={"h3"} sx={{color:colors.secondary[100]}}>Let’s discuss your Project</Typography> : null}
                    
-                    <Typography sx={{fontSize:"20px",fontStyle:"italic", color:"#f2eeeeec"}} >I'm always open to discussing product design work or partnership opportunities.</Typography>
+                    <Typography sx={{fontSize:"20px",fontStyle:"italic", color:colors.secondary[100]}} >I'm always open to discussing product design work or partnership opportunities.</Typography>
  
                 
                 <Formik
@@ -254,13 +259,13 @@ const ContactForm = () => {
 
                                     // Label default (unfocused)
                                     "& .MuiInputLabel-root": {
-                                    color: "#fff",
+                                   color:colors.secondary[100]
                                      
                                     },
 
                                     // Label focused
                                     "& .MuiInputLabel-root.Mui-focused": {
-                                    color: "rgba(233, 241, 241, 1)",
+                                    color:colors.secondary[100]
                                     
                                     },
 
@@ -272,7 +277,7 @@ const ContactForm = () => {
 
                                     // Input text color
                                     "& .MuiFilledInput-input": {
-                                    color: "#fff",
+                                    color:colors.secondary[100]
                                     },
 
                                     // Unfocused underline
@@ -282,14 +287,14 @@ const ContactForm = () => {
 
                                     // Focused underline
                                     "& .MuiFilledInput-underline:after": {
-                                    borderBottom: "2px solid rgba(244, 252, 252, 1)",
-                                    boxShadow: "0 0 10px rgba(243, 245, 245, 1)",
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
                                     },
 
                                     // Error underline
                                     "& .MuiFilledInput-underline.Mui-error:after": {
-                                    borderBottom: "2px solid #ED4337",
-                                    boxShadow: "0 0 10px #ED4337",
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
                                     },
                                 }}
                                 />
@@ -311,14 +316,14 @@ const ContactForm = () => {
 
                                     // Label default (unfocused)
                                     "& .MuiInputLabel-root": {
-                                    color: "#fff",
+                                   color:colors.secondary[100]
                                      
                                     },
 
                                     // Label focused
                                     "& .MuiInputLabel-root.Mui-focused": {
-                                    color: "rgba(233, 241, 241, 1)",
-                                     
+                                    color:colors.secondary[100]
+                                    
                                     },
 
                                     // Label error
@@ -329,7 +334,7 @@ const ContactForm = () => {
 
                                     // Input text color
                                     "& .MuiFilledInput-input": {
-                                    color: "#fff",
+                                    color:colors.secondary[100]
                                     },
 
                                     // Unfocused underline
@@ -339,14 +344,14 @@ const ContactForm = () => {
 
                                     // Focused underline
                                     "& .MuiFilledInput-underline:after": {
-                                    borderBottom: "2px solid rgba(244, 252, 252, 1)",
-                                    boxShadow: "0 0 10px rgba(243, 245, 245, 1)",
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
                                     },
 
                                     // Error underline
                                     "& .MuiFilledInput-underline.Mui-error:after": {
-                                    borderBottom: "2px solid #ED4337",
-                                    boxShadow: "0 0 10px #ED4337",
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
                                     },
                                 }}
                                 />
@@ -367,14 +372,14 @@ const ContactForm = () => {
 
                                     // Label default (unfocused)
                                     "& .MuiInputLabel-root": {
-                                    color: "#fff",
+                                   color:colors.secondary[100]
                                      
                                     },
 
                                     // Label focused
                                     "& .MuiInputLabel-root.Mui-focused": {
-                                    color: "rgba(233, 241, 241, 1)",
-                                     
+                                    color:colors.secondary[100]
+                                    
                                     },
 
                                     // Label error
@@ -385,7 +390,7 @@ const ContactForm = () => {
 
                                     // Input text color
                                     "& .MuiFilledInput-input": {
-                                    color: "#fff",
+                                    color:colors.secondary[100]
                                     },
 
                                     // Unfocused underline
@@ -395,14 +400,14 @@ const ContactForm = () => {
 
                                     // Focused underline
                                     "& .MuiFilledInput-underline:after": {
-                                    borderBottom: "2px solid rgba(244, 252, 252, 1)",
-                                    boxShadow: "0 0 10px rgba(243, 245, 245, 1)",
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
                                     },
 
                                     // Error underline
                                     "& .MuiFilledInput-underline.Mui-error:after": {
-                                    borderBottom: "2px solid #ED4337",
-                                    boxShadow: "0 0 10px #ED4337",
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
                                     },
                                 }}
                                 />
@@ -418,49 +423,49 @@ const ContactForm = () => {
                                 value={values.Message}
                                 error={!!touched.Message && !!errors.Message}
                                 helperText={touched.Message && errors.Message}
-                                sx={{
-                                gridColumn: "span 4",
+                               sx={{
+                                    gridColumn: "span 4",
 
-                                // Label default (unfocused)
-                                "& .MuiInputLabel-root": {
-                                color: "#fff",
-                                 
-                                },
+                                    // Label default (unfocused)
+                                    "& .MuiInputLabel-root": {
+                                   color:colors.secondary[100]
+                                     
+                                    },
 
-                                // Label focused
-                                "& .MuiInputLabel-root.Mui-focused": {
-                                color: "rgba(233, 241, 241, 1)",
-                                 
-                                },
+                                    // Label focused
+                                    "& .MuiInputLabel-root.Mui-focused": {
+                                    color:colors.secondary[100]
+                                    
+                                    },
 
-                                // Label error
-                                "& .MuiInputLabel-root.Mui-error": {
-                                color: "#ED4337",
-                                textShadow: "0 0 8px #ED4337, 0 0 120px #ED4337",
-                                },
+                                    // Label error
+                                    "& .MuiInputLabel-root.Mui-error": {
+                                    color: "#ED4337",
+                                    textShadow: "0 0 8px #ED4337, 0 0 120px #ED4337",
+                                    },
 
-                                // Input text color
-                                "& .MuiFilledInput-input": {
-                                color: "#fff",
-                                },
+                                    // Input text color
+                                    "& .MuiFilledInput-input": {
+                                    color:colors.secondary[100]
+                                    },
 
-                                // Unfocused underline
-                                "& .MuiFilledInput-underline:before": {
-                                borderBottom: "1px solid rgba(255, 255, 255, 0.24)",
-                                },
+                                    // Unfocused underline
+                                    "& .MuiFilledInput-underline:before": {
+                                    borderBottom: "1px solid rgba(255, 255, 255, 0.24)",
+                                    },
 
-                                // Focused underline
-                                "& .MuiFilledInput-underline:after": {
-                                borderBottom: "2px solid rgba(244, 252, 252, 1)",
-                                boxShadow: "0 0 10px rgba(243, 245, 245, 1)",
-                                },
+                                    // Focused underline
+                                    "& .MuiFilledInput-underline:after": {
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
+                                    },
 
-                                // Error underline
-                                "& .MuiFilledInput-underline.Mui-error:after": {
-                                borderBottom: "2px solid #ED4337",
-                                boxShadow: "0 0 10px #ED4337",
-                                },
-                            }}
+                                    // Error underline
+                                    "& .MuiFilledInput-underline.Mui-error:after": {
+                                    borderBottom: `2px solid ${colors.secondary[100]}`,
+                                    boxShadow: `0 0 10px ${colors.secondary[100]}`,
+                                    },
+                                }}
                                 />
 
     
@@ -468,7 +473,7 @@ const ContactForm = () => {
                             </Box>
 
                             <Box display="flex" justifyContent="end" mt="20px">
-                                <Button type="submit"  className=" TNeonBtn" color="#fff" variant="outlined">
+                                <Button type="submit"  color="inherit"sx={{color:colors.secondary[100]}} variant="outlined">
                                    <i style={{marginRight:"10px"}} class="fa-solid fa-paper-plane"></i> Send Message 
                                 </Button>
                             </Box>

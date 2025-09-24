@@ -1,12 +1,17 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import CountUp from "../../countUp/countUp";
+import { useTheme } from '@mui/material/styles';
+import { tokens } from "../../theme";
+
 
 const Achivements = () => {
+    const theme = useTheme();
+    const colors = tokens(theme.palette.mode);
     return (
         <Box  textAlign={'center'} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"} my={"50px"}>
-            <Box   maxWidth= "400px" mb={"40px"}>
-                <Typography className='TNeon' sx={{mb:"15px"}} variant="h3"><i class="fa fa-trophy" aria-hidden="true"></i> Achivements</Typography>
+            <Box  sx={{color:colors.secondary[100]}}   maxWidth= "400px" mb={"40px"}>
+                <Typography   sx={{mb:"15px"}} variant="h3"><i class="fa fa-trophy" aria-hidden="true"></i> Achivements</Typography>
                 <Typography  variant="h6" sx={{fontStyle:"italic"}}>what i am proud of </Typography>
             </Box>
 
@@ -21,7 +26,7 @@ const Achivements = () => {
                             
                                 <Box 
                                     sx={{
-                                        backgroundColor: "#0402021a",
+                                        backgroundColor: "#ded3d382",
                                         padding: "20px",
                                         borderRadius: "10px",
                                         boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
@@ -30,7 +35,8 @@ const Achivements = () => {
                                         transition: "0.7s ease",
                                         "&:hover": {
                                             transform:"scale(1.1)"
-                                        }
+                        },
+                                        color: colors.secondary[100]
                                     }}
                                 >
                                     <Box  className='TNeon'
@@ -61,7 +67,7 @@ const Achivements = () => {
                             
                                 <Box 
                                     sx={{
-                                        backgroundColor: "#0402021a",
+                                        backgroundColor: "#ded3d382",
                                         padding: "20px",
                                         borderRadius: "10px",
                                         boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
@@ -70,7 +76,8 @@ const Achivements = () => {
                                         transition: "0.7s ease",
                                         "&:hover": {
                                             transform:"scale(1.1)"
-                                        }
+                                        },
+                                        color: colors.secondary[100]
                                     }}
                                 >
                                     <Box  className='TNeon'
@@ -102,7 +109,7 @@ const Achivements = () => {
                             
                                 <Box 
                                     sx={{
-                                        backgroundColor: "#0402021a",
+                                        backgroundColor: "#ded3d382",
                                         padding: "20px",
                                         borderRadius: "10px",
                                         boxShadow: "0 5px 25px rgba(1, 1, 1, 0.15)",
@@ -111,7 +118,8 @@ const Achivements = () => {
                                         transition: "0.7s ease",
                                         "&:hover": {
                                             transform:"scale(1.1)"
-                                        }
+                                        },
+                                        color: colors.secondary[100]
                                     }}
                                 >
                                     <Box  className='TNeon'

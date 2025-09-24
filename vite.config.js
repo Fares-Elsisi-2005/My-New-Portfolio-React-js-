@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { visualizer } from 'rollup-plugin-visualizer'
+import svgr from 'vite-plugin-svgr'   // 👈 import the plugin
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
@@ -9,6 +10,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       react(),
+      svgr(),  // 👈 add svgr here
       enableVisualizer && visualizer({
         filename: 'stats.html',
         template: 'treemap',

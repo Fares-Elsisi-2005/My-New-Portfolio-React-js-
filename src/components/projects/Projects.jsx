@@ -12,13 +12,19 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import projectsData from '../../data/projects.json';
 import GlassCard from '../glassCard/GlassCard';
 import "./Projects.css"
-import 'react-lazy-load-image-component/src/effects/blur.css'
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import { useTheme } from '@mui/material/styles';
+import { tokens } from "../../theme";
+
 
 const filters = ['All','Personal Projects',"Not Completed",'Featured','Clone','HTML & CSS','JavaScript','Bootstrap','React + Material UI','Fullstack Projects','API Projects']
 
 
 const Projects = () => {
     const [active, setActive] = useState('All')
+      const theme = useTheme();
+      const colors = tokens(theme.palette.mode);
+    
 
     const filtered = useMemo(() => {
         if (active === 'All') return projectsData
@@ -29,8 +35,8 @@ const Projects = () => {
     return (
         <Box textAlign={'center'} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>
              
-                <Box   maxWidth= "400px" mb={"40px"}>
-                    <Typography className='TNeon' mb={"20px"} variant="h3">Portfolio</Typography>
+                <Box sx={{color:colors.secondary[100]}}  maxWidth= "400px" mb={"40px"}>
+                    <Typography  mb={"20px"} variant="h3">Portfolio</Typography>
                     <Typography variant="h6" sx={{fontStyle:"italic"}} >Here's a selection of my recent work, showcasing my skills in creating user-centric and visually appealing interfaces.</Typography>
                 </Box>
              
@@ -38,8 +44,9 @@ const Projects = () => {
             <Stack direction="row" flexWrap="wrap" gap={1}>
 
         {filters.map(f => (
-            <Chip   key={f} label={f} clickable sx={{
-                color: active === f ? "#78f3e2ff" : "rgba(255, 255, 255, 1)",
+            <Chip    key={f} label={f} clickable sx={{
+                color: active === f ? "#fff" : colors.primary[100],
+                backgroundColor:colors.secondary[100]
                 
               }} onClick={() => setActive(f)} />
         ))}
@@ -52,13 +59,20 @@ const Projects = () => {
                 p={"30px"}
                 display="grid"
                          gap={2} // spacing between cards
-                         sx={{
-                         gridTemplateColumns: {
-                              xs: "1fr",       // mobile  
-                                   sm: "1fr ", // tablet  
-                              md:"1fr 1fr 1fr",
-                              lg: "1fr 1fr 1fr ", // desktop 
-                         },
+                sx={{
+                    gridTemplateColumns: {
+                        xs: "1fr",       // mobile  
+                        sm: "1fr ", // tablet  
+                        md: "1fr 1fr 1fr",
+                        lg: "1fr 1fr 1fr ", // desktop 
+                    },
+                    "::-webkit-scrollbar-thumb": {
+                        backgroundColor: colors.secondary[100]
+                    },
+                    "::-webkit-scrollbar-thumb:hover": {
+                        backgroundColor: colors.primary[100]
+                        
+                    }
                          }}
             >
                 {filtered.map(p => (
@@ -66,12 +80,18 @@ const Projects = () => {
                     <GlassCard  sx={{ display: 'flex', flexDirection: 'column', flex: 1, transition: 'transform 200ms ease, box-shadow 200ms ease', '&:hover': { transform: 'translateY(-4px) scale(1.01)', boxShadow: 8 } }}>
                    
                     <CardContent sx={{ flex: 1 }}>
-                        <Typography className="TNeon" variant="h6" sx={{ fontWeight: 700 }}>{p.title}</Typography>
-                        <Stack direction="row" spacing={1} sx={{ my: 3, flexWrap: 'wrap' }}>
-                        {(p.tech || []).map(tag => (<Chip key={tag} label={tag} size="small" sx={{color:"#fff" }} onClick={() => setActive(tag)} />))}
+                        <Typography  variant="h6" sx={{ fontWeight: 700, color:colors.secondary[100] }}>{p.title}</Typography>
+                        <Stack direction="row"  sx={{ my: 3, gap:"5px", flexWrap: 'wrap' }}>
+                                    {(p.tech || []).map(tag => (<Chip key={tag} label={tag} size="small"
+                                        sx={{
+                                        color: active === tag ? "#fff" : colors.primary[100],
+                                            backgroundColor: colors.secondary[100],
+                                             
+                                        }}
+                                        onClick={() => setActive(tag)} />))}
                         </Stack>
-                        <Typography /* className="TNeon" */ variant="body2" sx={{ opacity: 0.85,color:"#fff" }}>{p.description}</Typography>
-                            </CardContent>
+                        <Typography   variant="body2" sx={{ opacity: 0.85, color:colors.secondary[100]}}>{p.description}</Typography>
+                    </CardContent>
                              {p.thumbnail && (
                         <LazyLoadImage
                           src={p.thumbnail}
@@ -87,13 +107,13 @@ const Projects = () => {
                     )}
                             <CardActions sx={{ alignSelf: "center", m: "20px" }}>
                                 {p.demo ?
-                                    <Button className="TNeonBtn" sx={{ color: "#fff" }} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button> :
+                                    <Button   sx={{backgroundColor:colors.primary[100], color:colors.secondary[100] }} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button> :
                                      <Tooltip title="no demo link now">
-                                        <Button className="TNeonBtn" disabled sx={{ color: "#726b6bff" }} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button>
+                                        <Button  disabled sx={{ backgroundColor:colors.primary[100],color: "#726b6bff" }} size="small" href={p.demo} target="_blank" rel="noreferrer">Demo</Button>
                                     </Tooltip>
                                 }
                         
-                        <Button className='TNeonBtn' sx={{color:"#fff"}} size="small" href={p.repo} target="_blank" rel="noreferrer">GitHub</Button>
+                        <Button   sx={{backgroundColor:colors.primary[100],color:colors.secondary[100]}} size="small" href={p.repo} target="_blank" rel="noreferrer">GitHub</Button>
                     </CardActions>
                     </GlassCard>
                 </Grid>

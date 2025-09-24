@@ -1,9 +1,10 @@
+import { ColorModeContext, useMode,tokens } from "./theme";
+import { CssBaseline, GlobalStyles, ThemeProvider, Box } from "@mui/material";
 import { useEffect, lazy, Suspense, useState } from "react";
+
 import { Element,animateScroll } from 'react-scroll'
 import { motion, AnimatePresence } from 'framer-motion'
-import Silk from './background/Silk'; // Import directly for immediate loading
 import Loader from './components/loader/Loader'
-const GradualBlur = lazy(() => import('./gradualBlur/gradualBlur'))
 const NavBar = lazy(() => import("./components/navbar/NavBar"))
 const Hero = lazy(() => import("./components/hero/Hero"))
 const Services = lazy(() => import("./components/services/Services"))
@@ -20,6 +21,10 @@ import { ToastContainer } from 'react-toastify';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
+  const [theme, colorMode] = useMode();
+  const colors = tokens(theme.palette.mode);
+  
+
   useEffect(() => {
     // Restore scroll on mount (useful on client navigation)
     window.history.scrollRestoration = 'manual'
@@ -33,7 +38,20 @@ function App() {
   }, [])
   
   return (
-    <div style={{ width: "100vw", minHeight: "100vh", position: "relative" }}>
+    <ColorModeContext.Provider value={colorMode}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline/>
+        <div style={{ width: "100vw", minHeight: "100vh", position: "relative" }}>
+          <GlobalStyles
+        styles={{
+          body: {
+            backgroundColor: colors.primary[100],
+            minHeight: "100vh",
+            margin: 0,
+          },
+        }}
+          />
+          
       <AnimatePresence mode="wait">
         {isLoading ? (
           <Loader key="loader" />
@@ -56,9 +74,7 @@ function App() {
                 pauseOnHover
                 theme="colored"
                  />
-            
-            <Silk />
-            
+             
             <div style={{ position: "relative", zIndex: 10, color: "white", width: "100%" }}>
               <NavBar />
               <div className="mainContainer" style={{ padding: "20px", display:"flex", flexDirection:"column", gap:"100px" }}>
@@ -83,23 +99,16 @@ function App() {
                 </Suspense>
               </div>
               <Footer/>
-               <GradualBlur
-                target="page"
-                position="bottom"
-                height="6rem"
-                strength={2}
-                divCount={5}
-                curve="bezier"
-                exponential={true}
-                opacity={1}
-              />
-
+               
             </div>
               <ScrollToTopButton onClick={() => animateScroll.scrollToTop({ smooth: true })} />
           </motion.div>
         )}
-      </AnimatePresence>
-    </div>
+          </AnimatePresence>
+          
+        </div>
+        </ThemeProvider>
+    </ColorModeContext.Provider>
   )
 }
 

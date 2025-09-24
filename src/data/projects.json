@@ -14,7 +14,7 @@
   {
     "id": "p0",
     "title": "My  Portofolio Website",
-    "thumbnail": "/assets/projectsImages/myoffcialPortfolio.png",
+    "thumbnail": "/assets/projectsImages/myReactPortfoliov3.png",
     "tech": ["React", "Material UI"],
     "category": [ "React + Material UI","JavaScript","HTML & CSS","formik","yup","emailjs","react bits","react toastify","react scroll"],
     "description": " This is my official portfolio website built with React and Material UI. It showcases my projects, skills, and experience in web development. ",
