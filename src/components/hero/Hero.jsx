@@ -1,5 +1,6 @@
 import { useTheme } from '@mui/material/styles';
 import { tokens } from "../../theme";
+import TextType from '../../textTypeAnimation/TextType';
 
 import Box from '@mui/material/Box'
 import Tooltip from '@mui/material/Tooltip'
@@ -28,7 +29,15 @@ export default function Hero() {
   
       <Stack spacing={2} sx={{ maxWidth: 800 ,margin:"20px" }}>
         <Typography   component="h1" variant="h3" sx={{ color:colors.secondary[100], fontWeight: 700 }}>Hello, I am Fares</Typography>
-        <Typography  component="h2" variant="h4" sx={{color:colors.secondary[100], fontWeight: 700 }}>Frontend Developer</Typography>
+          <TextType 
+        text={["Frontend Developer", "Web Developer", "React Developer", "javascript Developer"]}
+        typingSpeed={75}
+        pauseDuration={1500}
+        showCursor={true}
+            cursorCharacter="|"
+            textColors={[colors.secondary[100]]}
+            
+      />
         <Typography   variant="h6" sx={{ opacity: 0.9, color:colors.secondary[100]}}>I build modern and responsive client-side web apps.</Typography>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={4} justifyContent="center" sx={{ mt: 2 }}>
          
