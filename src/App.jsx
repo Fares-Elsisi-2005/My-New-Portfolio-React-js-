@@ -41,7 +41,10 @@ function App() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline/>
-        <div style={{ width: "100vw", minHeight: "100vh", position: "relative" }}>
+        <div style={{  
+          width: "100vw", minHeight: "100vh", position: "relative", 
+          
+        }}>
           <GlobalStyles
         styles={{
           body: {
