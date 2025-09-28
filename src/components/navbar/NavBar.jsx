@@ -70,7 +70,7 @@ export default function Navbar() {
             {navItems.map((item) => (
               <ScrollLink key={item.to} to={item.to} smooth duration={500} offset={-80} spy onSetActive={() => setActive(item.to)}>
                 <Button  sx={{
-                   color: active === item.to ?  "inherit":colors.primary[100] ,
+                   color: active === item.to ?  "#9c9a9aff":colors.primary[100] ,
                   fontWeight: 600,
                    
                  }}>{item.label}</Button>
@@ -99,7 +99,7 @@ export default function Navbar() {
             {navItems.map((item) => (
               <ScrollLink key={item.to} to={item.to} smooth duration={500} offset={-80} spy onSetActive={() => setActive(item.to)}>
                 <ListItemButton onClick={() => setMobileOpen(false)}>
-                  <ListItemText sx={{color:colors.secondary[100]}}  primary={item.label} />
+                  <ListItemText sx={{color:colors.secondary[100],fontFamily:"Josefin Sans"}}  primary={item.label} />
                 </ListItemButton>
               </ScrollLink>
             ))}

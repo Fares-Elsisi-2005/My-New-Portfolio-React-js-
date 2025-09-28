@@ -31,7 +31,11 @@ const About = () => {
                     
                 }}>
                     <Typography sx={{color:colors.secondary[100],fontStyle:"italic"}} variant="subtitle2">
-                           "Hi, I’m Fares, a 20-year-old  <sapn style={{color:colors.blue[100]}}>Frontend developer</sapn> based in Cairo. I started programming <span style={{color:colors.blue[100]}}>two years</span> ago, beginning with Python and small console applications. Over time, I explored programming fundamentals, data structures, and OOP with C#. Eventually, I found my passion in frontend development. Currently, I’m building a <span style={{color:colors.blue[100]}}>full courses platform</span> using React, Material UI, and Firebase.  I’m always eager to improve my skills and build meaningful applications."
+                         
+                        "I’m a passionate <sapn style={{ color: colors.blue[100] }}>Frontend Developer</sapn>   with strong experience in building modern, responsive, and user-friendly web applications.
+Over the past 10 months, I’ve <sapn style={{ color: colors.blue[100] }}> developed 30+ projects </sapn> ranging from simple apps to full-stack platforms using React.js, JavaScript, and REST APIs.
+Currently, I’m working on an<sapn style={{ color: colors.blue[100] }}>online education platform </sapn> with Firebase authentication and payment integration.
+I’m eager to bring creativity, clean code, and problem-solving skills to real-world projects and collaborative teams."
                      </Typography>
                 </Box>
             </Box>

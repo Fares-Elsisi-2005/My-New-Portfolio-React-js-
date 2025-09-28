@@ -27,8 +27,8 @@ export default function Hero() {
       <Box  maxWidth={"900px"}   sx={{  height:"fit-content", py: { xs: 8, md: 14 },gap:"15px", flexDirection:{xs:"column",md:"row"}, p:"20px", display: 'flex',borderRadius:"10px",  backdropFilter: 'blur(20px)',  backgroundColor: colors.primary[100], justifyContent:"space-between",textAlign: 'center', alignItems:"center" }}>
       
   
-      <Stack spacing={2} sx={{ maxWidth: 800 ,margin:"20px" }}>
-        <Typography   component="h1" variant="h3" sx={{ color:colors.secondary[100], fontWeight: 700 }}>Hello, I am Fares</Typography>
+      <Stack spacing={4} sx={{ maxWidth: 800 ,margin:"20px" }}>
+        <Typography     variant="h1" sx={{ color:colors.secondary[100], fontWeight: 700 }}>Hello, I am Fares</Typography>
           <TextType 
         text={["Frontend Developer", "Web Developer", "React Developer", "javascript Developer"]}
         typingSpeed={75}
@@ -38,16 +38,16 @@ export default function Hero() {
             textColors={[colors.secondary[100]]}
             
       />
-        <Typography   variant="h6" sx={{ opacity: 0.9, color:colors.secondary[100]}}>I build modern and responsive client-side web apps.</Typography>
+        <Typography   variant="h4" sx={{ opacity: 0.9, color:colors.secondary[100]}}>I build modern and responsive client-side web apps.</Typography>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={4} justifyContent="center" sx={{ mt: 2 }}>
          
-          <Button   variant="outlined" color="inherit"   startIcon={<DownloadIcon className='TNeonSvg' />} sx={{color:colors.secondary[100], borderRadius:"20px", fontStyle:"italic"}} component="a" href="/assets/cv/FaresAhmedSalah_FrontendDeveloper.pdf" download aria-label="Download Resume">Download Resume</Button>
+          <Button   variant="outlined" color="inherit"   startIcon={<DownloadIcon  className='TNeonSvg' />} sx={{color:colors.secondary[100], borderRadius:"20px",  }} component="a" href="/assets/cv/FaresAhmedSalah_FrontendDeveloper.pdf" download aria-label="Download Resume">Download Resume</Button>
           <ScrollLink to="contact" smooth duration={500} offset={-80}>
-              <Button  variant="outlined" color="inherit" sx={{ color:colors.secondary[100], backdropFilter: 'blur(10px)',  borderRadius: "20px",fontStyle:"italic" }} startIcon={<WorkIcon className='TNeonSvg' />} component="a" href="mailto:fareselsisi35@gmail.com" aria-label="Hire Me">Hire Me</Button>
+              <Button  variant="outlined" color="inherit" sx={{ color:colors.secondary[100], backdropFilter: 'blur(10px)',  borderRadius: "20px",  }} startIcon={<WorkIcon className='TNeonSvg' />} component="a" href="mailto:fareselsisi35@gmail.com" aria-label="Hire Me">Hire Me</Button>
           </ScrollLink>
               
           <ScrollLink to="projects" smooth duration={500} offset={-80}>
-            <Button variant="outlined"color="inherit" sx={{color:colors.secondary[100],borderRadius:"20px",fontStyle:"italic"}}    startIcon={<VisibilityIcon />} component="a" aria-label="View My Work">View My Work</Button>
+            <Button variant="outlined"color="inherit" sx={{color:colors.secondary[100],borderRadius:"20px", }}    startIcon={<VisibilityIcon />} component="a" aria-label="View My Work">View My Work</Button>
           </ScrollLink>
         </Stack>
        
@@ -56,8 +56,9 @@ export default function Hero() {
           <Avatar
             sx={{
         width: { xs: 200, sm: 250, md: 250, lg: 300 },
-    height: { xs: 200, sm: 250, md: 250, lg: 300 },}
-       } alt="Fares Ahmed" src="/assets/team-1.png" />
+              height: { xs: 200, sm: 250, md: 250, lg: 300 },
+            border:`solid 1px ${colors.secondary[100]}`}
+       } alt="Fares Ahmed" src="/assets/mePortfolio2.webp" />
           <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1 }}>
             <Tooltip title="linkedin">
               <IconButton sx={{color:colors.secondary[100]}}  component="a" href="https://www.linkedin.com/in/fares-elsisi-613732321/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>

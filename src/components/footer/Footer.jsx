@@ -42,7 +42,7 @@ const Footer = () => {
              
         }}>
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} gap={"20px"}>
-                <Avatar sx={{width:"80px", height:"80px"}}  alt="Fares Ahmed" src="/assets/team-1.png" />
+                <Avatar sx={{width:"80px", height:"80px",border:`solid 1px ${colors.secondary[100]}`}}  alt="Fares Ahmed" src="/assets/mePortfolio2.webp" />
                 <Typography sx={{color:colors.primary[100],fontStyle:"italic"}} variant="h4">Fares Ahmed</Typography>
             </Box>
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} flexWrap={"wrap"}>
