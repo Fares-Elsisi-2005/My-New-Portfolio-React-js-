@@ -147,6 +147,13 @@
         "image": "/assets/skillsImages/flash.png"
         
     }
+    ,
+            {
+        "id": "s7",
+        "name": "Cursor",
+        "image": "/assets/skillsImages/cursor.png"
+        
+    }
         ]
     },
     {
