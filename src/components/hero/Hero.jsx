@@ -41,7 +41,7 @@ export default function Hero() {
         <Typography   variant="h4" sx={{ opacity: 0.9, color:colors.secondary[100]}}>I build modern and responsive client-side web apps.</Typography>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={4} justifyContent="center" sx={{ mt: 2 }}>
          
-          <Button   variant="outlined" color="inherit"   startIcon={<DownloadIcon  className='TNeonSvg' />} sx={{color:colors.secondary[100], borderRadius:"20px",  }} component="a" href="/assets/cv/FaresAhmedSalah_FrontendDeveloper.pdf" download aria-label="Download Resume">Download Resume</Button>
+          <Button   variant="outlined" color="inherit"   startIcon={<DownloadIcon  className='TNeonSvg' />} sx={{color:colors.secondary[100], borderRadius:"20px",  }} component="a" target='_blank' href="https://drive.google.com/file/d/1_TQkeB6te1Yijjb3aWZFRA7w67pipWbF/view?usp=sharing" download aria-label="Download Resume">Download Resume</Button>
           <ScrollLink to="contact" smooth duration={500} offset={-80}>
               <Button  variant="outlined" color="inherit" sx={{ color:colors.secondary[100], backdropFilter: 'blur(10px)',  borderRadius: "20px",  }} startIcon={<WorkIcon className='TNeonSvg' />} component="a" href="mailto:fareselsisi35@gmail.com" aria-label="Hire Me">Hire Me</Button>
           </ScrollLink>

@@ -2,7 +2,7 @@
 [
   {
     "id": "p00",
-    "title": "Courses Platform (just the UI)",
+    "title": "Courses Platform",
     "thumbnail": "/assets/projectsImages/coursesPlatfrom.png",
     "tech": ["React", "Material UI","formik","yup","react dropzone","react player", "React Router"],
     "category": [ "React + Material UI","JavaScript","HTML & CSS","Fullstack Projects", "Personal Projects","Not Completed"],
