@@ -1,7 +1,7 @@
 
 [
   {
-    "id": "p00",
+    "id": "p0",
     "title": "Courses Platform",
     "thumbnail": "/assets/projectsImages/coursesPlatfrom.png",
     "tech": ["React", "Material UI","formik","yup","react dropzone","react player", "React Router"],
@@ -12,7 +12,18 @@
     "featured": true
   },
   {
-    "id": "p0",
+    "id": "p1",
+    "title": "Subscription Management System (Backend project)",
+    "thumbnail": "/assets/projectsImages/Subscription-Management-System.webp",
+    "tech": ["JavaScript","API", "Node.js", "Express", "MongoDB", "Mongoose","JWT tokens","bcryptjs","Nodemailer","Upstash","Arcjet "],
+    "category": ["JavaScript","API Projects","Backend" ],
+    "description": "This is a Subscription Tracker API built with Node.js, Express, and MongoDB. It allows users to create accounts, manage subscriptions, and receive automated email reminders before renewals.",
+    "demo": "",
+    "repo": "https://github.com/Fares-Elsisi-2005/Subscription-Management-System-Backend-",
+    "featured": true
+  },
+  {
+    "id": "p2",
     "title": "My  Portofolio Website",
     "thumbnail": "/assets/projectsImages/myReactPortfoliov3.png",
     "tech": ["React", "Material UI"],
@@ -23,7 +34,7 @@
     "featured": true
   },
   {
-    "id": "p1",
+    "id": "p3",
     "title": "Netflix Clone",
     "thumbnail": "/assets/projectsImages/netflixClone.png",
     "tech": ["React", "Material UI", "API"],
@@ -34,7 +45,7 @@
     "featured": true
   },
   {
-    "id": "p2",
+    "id": "p4",
     "title": "Admin Dashboard",
     "thumbnail": "/assets/projectsImages/reactDashboard.png",
     "tech": ["React","React Router", "Material UI","fullcalendar","nivo charts","formik","yup"],
@@ -45,7 +56,7 @@
     "featured": true
   },
   {
-    "id": "p3",
+    "id": "p5",
     "title": "Todo list",
     "thumbnail": "/assets/projectsImages/React_TodoList.png",
     "tech": ["React", "Material UI"],
@@ -57,7 +68,7 @@
   }
   ,
   {
-    "id": "p4",
+    "id": "p6",
     "title": "Weather App",
     "thumbnail": "/assets/projectsImages/Weather_App.png",
     "tech": ["React", "Material UI", "API"],
@@ -69,7 +80,7 @@
   }
   ,
   {
-    "id": "p5",
+    "id": "p7",
     "title": "Proudct Managment System (CRUDS)",
     "thumbnail": "/assets/projectsImages/jvascript_CRUDS.png",
     "tech": ["JavaScript", "HTML & CSS"],
@@ -78,11 +89,10 @@
     "demo": "https://fares-elsisi-2005.github.io/CRUDS_project/",
     "repo": "https://github.com/Fares-Elsisi-2005/CRUDS_project",
     "featured": true
-  }
-   
+  }  
   ,
   {
-    "id": "p6",
+    "id": "p8",
     "title": "Interactive nested comments section (CRUD)",
     "thumbnail": "/assets/projectsImages/nestedComments.png",
     "tech": ["JavaScript", "HTML & CSS"],
@@ -94,7 +104,7 @@
   }
   ,
   {
-    "id": "p7",
+    "id": "p9",
     "title": "Proudct Page",
     "thumbnail": "/assets/projectsImages/productPageWebsiteImage.png",
     "tech": ["JavaScript", "HTML & CSS"],
@@ -106,7 +116,7 @@
   }
   ,
   {
-    "id": "p8",
+    "id": "p10",
     "title": "Image processor",
     "thumbnail": "/assets/projectsImages/javascript_ImageEditor.png",
     "tech": ["JavaScript", "HTML & CSS"],
@@ -118,7 +128,7 @@
   }
   ,
   {
-    "id": "p9",
+    "id": "p11",
     "title": "Browser extensions manager UI",
     "thumbnail": "/assets/projectsImages/desktop-design-dark.jpg",
     "tech": ["JavaScript", "HTML & CSS"],
@@ -130,7 +140,7 @@
   }
   ,
   {
-    "id": "p10",
+    "id": "p12",
     "title": "Real Social media app  (mini facebook)",
     "thumbnail": "/assets/projectsImages/javascriptSocialMediaApp.png",
     "tech": ["JavaScript", "HTML & CSS", "API","Bootstrap"],
@@ -142,7 +152,7 @@
   }
   ,
   {
-    "id": "p11",
+    "id": "p13",
     "title": "Bondi Inc Template",
     "thumbnail": "/assets/projectsImages/bootstrapTemplate.png",
     "tech": [ "HTML & CSS","Bootstrap"],
@@ -154,7 +164,7 @@
   }
   ,
   {
-    "id": "p12",
+    "id": "p14",
     "title": "Fares Knight Template",
     "thumbnail": "/assets/projectsImages/bootstrapTemplate2.png",
     "tech": [ "HTML & CSS","Bootstrap"],
@@ -166,7 +176,7 @@
   }
   ,
   {
-    "id": "p13",
+    "id": "p15",
     "title": "Portofolio website",
     "thumbnail": "/assets/projectsImages/htmlCssLeaonTemplateOne5.png",
     "tech": [ "HTML & CSS"],
@@ -178,7 +188,7 @@
   }
   ,
   {
-    "id": "p14",
+    "id": "p16",
     "title": "Portofolio website 2",
     "thumbnail": "/assets/projectsImages/Template2Image.png",
     "tech": [ "HTML & CSS"],
@@ -190,7 +200,7 @@
   }
   ,
   {
-    "id": "p15",
+    "id": "p17",
     "title": "Clothes Store website",
     "thumbnail": "/assets/projectsImages/ClothsWebsiteImage.png",
     "tech": [ "HTML & CSS"],
@@ -202,7 +212,7 @@
   }
   ,
   {
-    "id": "p16",
+    "id": "p18",
     "title": "Interior Design Website",
     "thumbnail": "/assets/projectsImages/interiorDesignWebsiteImage.png",
     "tech": [ "HTML & CSS"],
@@ -214,7 +224,7 @@
   }
   ,
   {
-    "id": "p17",
+    "id": "p19",
     "title": "Social media dashboard",
     "thumbnail": "/assets/projectsImages/htmlCss_socialMediaDashboard.png",
     "tech": [ "HTML & CSS"],
@@ -227,7 +237,7 @@
    
   ,
   {
-    "id": "p18",
+    "id": "p20",
     "title": "Dashboard page",
     "thumbnail": "/assets/projectsImages/hrmlCssDashboard2.png",
     "tech": [ "HTML & CSS"],
@@ -239,7 +249,7 @@
   }
   ,
   {
-    "id": "p19",
+    "id": "p21",
     "title": "Restaurant Webiste",
     "thumbnail": "/assets/projectsImages/htmlCssrestaurant6.png",
     "tech": [ "HTML & CSS"],
@@ -251,7 +261,7 @@
   }
   ,
   {
-    "id": "p20",
+    "id": "p22",
     "title": "Creative menu",
     "thumbnail": "/assets/projectsImages/htmlCssCreativeMenu3.png",
     "tech": [ "HTML & CSS"],
@@ -263,7 +273,7 @@
   }
   ,
   {
-    "id": "p21",
+    "id": "p23",
     "title": "Glassy website",
     "thumbnail": "/assets/projectsImages/htmlCssGlassyWebsite4.png",
     "tech": [ "HTML & CSS"],
@@ -276,7 +286,7 @@
   
    ,
   {
-    "id": "p22",
+    "id": "p24",
     "title": "Prayer times",
     "thumbnail": "/assets/projectsImages/api_prayingTimes.png",
     "tech": ["JavaScript", "HTML & CSS", "API" ],
@@ -286,5 +296,6 @@
     "repo": "https://github.com/Fares-Elsisi-2005/PrayingTimesApi_Project/tree/master",
     "featured": true
   }
+  
    
 ] 
