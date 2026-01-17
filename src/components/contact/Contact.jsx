@@ -47,6 +47,8 @@ const userSchema = yup.object().shape({
 
 const ContactForm = () => {
     const isMobile = useMediaQuery("(max-width:800px)");
+
+    
     const handleFormSubmit = async (values, { resetForm }) => {
     const templateId ="template_qu2vkw7";     // from EmailJS dashboard
     const  serviceId = "service_tp3amgs";   // from EmailJS dashboard
