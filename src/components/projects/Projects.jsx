@@ -17,7 +17,7 @@ import { useTheme } from '@mui/material/styles';
 import { tokens } from "../../theme";
 
 
-const filters = ['All','Personal Projects',"Not Completed",'Featured','Clone','HTML & CSS','JavaScript','Bootstrap','React + Material UI','Fullstack Projects','API Projects',"Backend"]
+const filters = ['All','Personal Projects', "Not Completed",'Featured', "Next js","Typescript",'Clone','HTML & CSS','JavaScript','Bootstrap','React + Material UI','Fullstack Projects','API Projects',"Backend"]
 
 
 const Projects = () => {

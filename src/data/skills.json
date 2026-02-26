@@ -20,7 +20,14 @@
         "id": "s3",
         "name": "C#",
         "image": "/assets/skillsImages/c-sharp.png"
+    },
+    {
+        "id": "s4",
+        "name": "Typescript",
+        "image": "/assets/skillsImages/TypeScript.png"
     }
+
+
      
         ]
     },
@@ -54,22 +61,28 @@
     }
     ,
     {
-        "id": "s4",
+        "id": "s5",
         "name": "Bootstrap",
         "image": "/assets/skillsImages/media.png"
     }
     ,
     {
-        "id": "s5",
+        "id": "s6",
         "name": "Tailwind CSS",
         "image": "/assets/skillsImages/Tailwind CSS.png"
     }
     ,
     {
-        "id": "s6",
+        "id": "s7",
         "name": "SASS",
         "image": "/assets/skillsImages/Sass.png"
+    },
+    {
+        "id": "s8",
+        "name": "Next js",
+        "image": "/assets/skillsImages/Nextjs.png"
     }
+
      
         ]
     },

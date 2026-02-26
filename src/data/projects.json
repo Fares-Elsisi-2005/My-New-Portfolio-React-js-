@@ -34,6 +34,17 @@
     "featured": true
   },
   {
+    "id": "p2.1",
+    "title": "Acme Dashboard",
+    "thumbnail": "/assets/projectsImages/nextjs project.png",
+    "tech": ["React", "Next js","clsx","taiwind css","bcrypt","postgres","typescript","zod","use-debounce"],
+    "category": ["Next js","Typescript","JavaScript","HTML & CSS", "Fullstack Projects" ,"API Projects","Backend",  "Not Completed","Featured"],
+    "description": "This is  a fullstack dashboard built with next js  ",
+    "demo": "https://nextjs-dashboard-wine-nu-62.vercel.app/",
+    "repo": "https://github.com/Fares-Elsisi-2005/nextjsDashboard",
+    "featured": true
+  },
+  {
     "id": "p3",
     "title": "Netflix Clone",
     "thumbnail": "/assets/projectsImages/netflixClone.png",
