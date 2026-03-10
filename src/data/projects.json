@@ -2,7 +2,7 @@
 [
   {
     "id": "p0",
-    "title": "Courses Platform",
+    "title": "Courses Platform (My Biggest Achievement⭐)",
     "thumbnail": "/assets/projectsImages/coursesPlatfrom.png",
     "tech": ["React", "Firebase", "cloudinary","react dropzone","react player","Material UI","formik","yup", "React Router","fuse.js","react easy crop","react player","react toastify","Sortablejs"],
     "category": [ "React + Material UI","JavaScript","HTML & CSS","Fullstack Projects", "Personal Projects","Not Completed"],
@@ -21,18 +21,7 @@
     "demo": "",
     "repo": "https://github.com/Fares-Elsisi-2005/Subscription-Management-System-Backend-",
     "featured": true
-  },
-  {
-    "id": "p2",
-    "title": "My  Portofolio Website",
-    "thumbnail": "/assets/projectsImages/myReactPortfoliov3.png",
-    "tech": ["React", "Material UI"],
-    "category": [ "React + Material UI","JavaScript","HTML & CSS","formik","yup","emailjs","react bits","react toastify","react scroll"],
-    "description": " This is my official portfolio website built with React and Material UI. It showcases my projects, skills, and experience in web development. ",
-    "demo": "https://faresahmedelsisi.netlify.app/",
-    "repo": "https://github.com/Fares-Elsisi-2005/My-New-Portfolio-React-js-",
-    "featured": true
-  },
+  } ,
   {
     "id": "p2.1",
     "title": "Acme Dashboard",
@@ -44,17 +33,7 @@
     "repo": "https://github.com/Fares-Elsisi-2005/nextjsDashboard",
     "featured": true
   },
-  {
-    "id": "p3",
-    "title": "Netflix Clone",
-    "thumbnail": "/assets/projectsImages/netflixClone.png",
-    "tech": ["React", "Material UI", "API"],
-    "category": ["Clone", "React + Material UI", "API Projects", "JavaScript","HTML & CSS"],
-    "description": "A Netflix clone built with React, Material UI, and TMDB API. It features user authentication, movie browsing, and a responsive design for an engaging user experience.",
-    "demo": "",
-    "repo": "https://github.com/Fares-Elsisi-2005/moviesWebsite",
-    "featured": true
-  },
+  
   {
     "id": "p4",
     "title": "Admin Dashboard",
@@ -76,18 +55,6 @@
     "demo": "https://fares-elsisi-2005.github.io/todoList/",
     "repo": "https://github.com/Fares-Elsisi-2005/todoList",
     "featured": true
-  }
-  ,
-  {
-    "id": "p6",
-    "title": "Weather App",
-    "thumbnail": "/assets/projectsImages/Weather_App.png",
-    "tech": ["React", "Material UI", "API"],
-    "category": ["React + Material UI","API Projects"],
-    "description": " this is a weather app using React js and Matrial UI and open weather API (desktop screen)",
-    "demo": "https://fares-elsisi-2005.github.io/WeatherApp/",
-    "repo": "https://github.com/Fares-Elsisi-2005/WeatherApp",
-    "featured": false
   }
   ,
   {
@@ -137,18 +104,7 @@
     "repo": "https://github.com/Fares-Elsisi-2005/Image_Editor/tree/master",
     "featured": true
   }
-  ,
-  {
-    "id": "p11",
-    "title": "Browser extensions manager UI",
-    "thumbnail": "/assets/projectsImages/desktop-design-dark.jpg",
-    "tech": ["JavaScript", "HTML & CSS"],
-    "category": ["JavaScript","HTML & CSS","Personal Projects" ],
-    "description": " this is a Browser extensions manager UI using JavaScript, HTML, and CSS it has a lot of features like add, delete and fillteration buttons to show  all, active and non active extention and responsive design it has dark and light mode option. the project from frontend mentor website (www.frontendmentor.io)",
-    "demo": "https://fares-elsisi-2005.github.io/-BrowserExtensionsManagerUI/",
-    "repo": "https://github.com/Fares-Elsisi-2005/-BrowserExtensionsManagerUI",
-    "featured": true
-  }
+  
   ,
   {
     "id": "p12",
@@ -161,152 +117,10 @@
     "repo": "https://github.com/Fares-Elsisi-2005/Real_SocialMediaApp_Project_V1/tree/master",
     "featured": true
   }
-  ,
-  {
-    "id": "p13",
-    "title": "Bondi Inc Template",
-    "thumbnail": "/assets/projectsImages/bootstrapTemplate.png",
-    "tech": [ "HTML & CSS","Bootstrap"],
-    "category": ["HTML & CSS","Bootstrap" ],
-    "description": " this is a Bondi Inc Template using HTML, CSS, and Bootstrap it has a lot of sections like navbar, hero section, services section, portfolio section, testimonials section, and contact section and responsive design",
-    "demo": "https://fares-elsisi-2005.github.io/BootstrapElzeroTemplate/",
-    "repo": "https://github.com/Fares-Elsisi-2005/BootstrapElzeroTemplate",
-    "featured": false
-  }
-  ,
-  {
-    "id": "p14",
-    "title": "Fares Knight Template",
-    "thumbnail": "/assets/projectsImages/bootstrapTemplate2.png",
-    "tech": [ "HTML & CSS","Bootstrap"],
-    "category": ["HTML & CSS","Bootstrap" ],
-    "description": " this is a Fares Knight Template using HTML, CSS, and Bootstrap it has a lot of sections like navbar, hero section, services section, portfolio section, testimonials section, and contact section and responsive design",
-    "demo": "https://fares-elsisi-2005.github.io/BootstrapTemplate2/",
-    "repo": "https://github.com/Fares-Elsisi-2005/BootstrapTemplate2",
-    "featured": false
-  }
-  ,
-  {
-    "id": "p15",
-    "title": "Portofolio website",
-    "thumbnail": "/assets/projectsImages/htmlCssLeaonTemplateOne5.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS" ],
-    "description": " this is a Portofolio website using HTML, CSS, and it has a lot of sections like navbar, hero section, about me section, services section, portfolio section, testimonials section, and contact section and responsive design",
-    "demo": "https://fares-elsisi-2005.github.io/leon-template-one/",
-    "repo": "https://github.com/Fares-Elsisi-2005/leon-template-one",
-    "featured": false
-  }
-  ,
-  {
-    "id": "p16",
-    "title": "Portofolio website 2",
-    "thumbnail": "/assets/projectsImages/Template2Image.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS" ],
-    "description": " this is a Portofolio website using HTML, CSS, and it has a lot of sections like navbar, hero section, about me section, services section, portfolio section, testimonials section, and contact section and responsive design",
-    "demo": "https://fares-elsisi-2005.github.io/ElzeroTemplate2/",
-    "repo": "https://github.com/Fares-Elsisi-2005/ElzeroTemplate2",
-    "featured": false
-  }
-  ,
-  {
-    "id": "p17",
-    "title": "Clothes Store website",
-    "thumbnail": "/assets/projectsImages/ClothsWebsiteImage.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS","Personal Projects" ],
-    "description": " this is a Clothes Store website using HTML, CSS, has responsive design this project is remade from (www.w3schools.com) website to practice my skills in html and css",
-    "demo": "https://fares-elsisi-2005.github.io/clothesStore/",
-    "repo": "https://github.com/Fares-Elsisi-2005/clothesStore",
-    "featured": true
-  }
-  ,
-  {
-    "id": "p18",
-    "title": "Interior Design Website",
-    "thumbnail": "/assets/projectsImages/interiorDesignWebsiteImage.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS","Personal Projects" ],
-    "description": " this is a Interior Design Website using HTML, CSS, has responsive design this project is remade from (www.w3schools.com) website to practice my skills in html and css",
-    "demo": "https://fares-elsisi-2005.github.io/InteriorDesignWebsite/",
-    "repo": "https://github.com/Fares-Elsisi-2005/InteriorDesignWebsite",
-    "featured": true
-  }
-  ,
-  {
-    "id": "p19",
-    "title": "Social media dashboard",
-    "thumbnail": "/assets/projectsImages/htmlCss_socialMediaDashboard.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS" ],
-    "description": " this is a Social media dashboard using HTML, CSS, has responsive design the project from frontend mentor website (www.frontendmentor.io)",
-    "demo": "https://fares-elsisi-2005.github.io/social-media-dashboard/",
-    "repo": "https://github.com/Fares-Elsisi-2005/social-media-dashboard",
-    "featured": false
-  }
    
-  ,
-  {
-    "id": "p20",
-    "title": "Dashboard page",
-    "thumbnail": "/assets/projectsImages/hrmlCssDashboard2.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS" ],
-    "description": "  this is a Dashboard page using HTML, CSS, has responsive design ",
-    "demo": "https://fares-elsisi-2005.github.io/DashBoard/",
-    "repo": "https://github.com/Fares-Elsisi-2005/DashBoard",
-    "featured": false
-  }
-  ,
-  {
-    "id": "p21",
-    "title": "Restaurant Webiste",
-    "thumbnail": "/assets/projectsImages/htmlCssrestaurant6.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS" ],
-    "description": " this is a Restaurant Webiste using HTML, CSS, has responsive design the project from  freecodecamp website (www.freecodecamp.org)",
-    "demo": "https://fares-elsisi-2005.github.io/restaurantWebsite/",
-    "repo": "https://github.com/Fares-Elsisi-2005/restaurantWebsite",
-    "featured": false
-  }
-  ,
-  {
-    "id": "p22",
-    "title": "Creative menu",
-    "thumbnail": "/assets/projectsImages/htmlCssCreativeMenu3.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS" ],
-    "description": " this is a Creative menu using HTML, CSS.",
-    "demo": "https://fares-elsisi-2005.github.io/CreativeMenu/",
-    "repo": "https://github.com/Fares-Elsisi-2005/CreativeMenu",
-    "featured": false
-  }
-  ,
-  {
-    "id": "p23",
-    "title": "Glassy website",
-    "thumbnail": "/assets/projectsImages/htmlCssGlassyWebsite4.png",
-    "tech": [ "HTML & CSS"],
-    "category": ["HTML & CSS" ],
-    "description": " this is a branding website using HTML, CSS.",
-    "demo": "https://fares-elsisi-2005.github.io/Glassy-Website/",
-    "repo": "https://github.com/Fares-Elsisi-2005/Glassy-Website",
-    "featured": false
-  }
+   
   
-   ,
-  {
-    "id": "p24",
-    "title": "Prayer times",
-    "thumbnail": "/assets/projectsImages/api_prayingTimes.png",
-    "tech": ["JavaScript", "HTML & CSS", "API" ],
-    "category": ["JavaScript","HTML & CSS", "API Projects" ],
-    "description": " this is a Prayer times app using JavaScript, HTML, and CSS and (AlAdhan) API it has a lot of features like get prayer times for any city in the world and responsive design",
-    "demo": "https://fares-elsisi-2005.github.io/PrayingTimesApi_Project/",
-    "repo": "https://github.com/Fares-Elsisi-2005/PrayingTimesApi_Project/tree/master",
-    "featured": true
-  }
+ 
   
    
 ] 

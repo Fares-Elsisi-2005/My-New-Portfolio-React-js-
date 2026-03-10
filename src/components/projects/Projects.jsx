@@ -17,7 +17,7 @@ import { useTheme } from '@mui/material/styles';
 import { tokens } from "../../theme";
 
 
-const filters = ['All','Personal Projects', "Not Completed",'Featured', "Next js","Typescript",'Clone','HTML & CSS','JavaScript','Bootstrap','React + Material UI','Fullstack Projects','API Projects',"Backend"]
+const filters = ['All','Personal Projects', "Not Completed",'Featured', "Next js","Typescript", 'React','Fullstack Projects','API',"Backend"]
 
 
 const Projects = () => {
@@ -90,7 +90,7 @@ const Projects = () => {
                                         }}
                                         onClick={() => setActive(tag)} />))}
                         </Stack>
-                        <Typography   variant="body2" sx={{ opacity: 0.85, color:colors.secondary[100]}}>{p.description}</Typography>
+                        <Typography   variant="body2" sx={{ opacity: 0.85, color:colors.secondary[100], }}>{p.description}</Typography>
                     </CardContent>
                              {p.thumbnail && (
                         <LazyLoadImage
