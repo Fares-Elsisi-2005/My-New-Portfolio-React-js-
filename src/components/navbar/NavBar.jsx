@@ -49,7 +49,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <AppBar position="sticky" color="transparent" elevation={0} sx={{ backdropFilter: 'blur(10px)', background:colors.secondary[100],   }}>
+    <AppBar position="sticky" color="transparent" elevation={0} sx={{ backdropFilter: 'blur(10px)', background:colors.secondary[100], borderRadius:"0 0 10px 10px"     }}>
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
            <Typography variant="h5" sx={{ color: colors.primary[100], fontWeight: 700 }}>Fares</Typography>
