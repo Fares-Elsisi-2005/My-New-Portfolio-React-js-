@@ -6,6 +6,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { Link as ScrollLink, Events } from 'react-scroll';
 import { useTheme } from '@mui/material/styles';
 import { tokens } from "../../theme";
+import { getAssetUrl } from "../../utils/assets";
 
 
 const navItems = [
@@ -42,7 +43,7 @@ const Footer = () => {
              
         }}>
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} gap={"20px"}>
-                <Avatar sx={{width:"80px", height:"80px",border:`solid 1px ${colors.secondary[100]}`}}  alt="Fares Ahmed" src="/assets/mePortfolio2.webp" />
+                <Avatar sx={{width:"80px", height:"80px",border:`solid 1px ${colors.secondary[100]}`}}  alt="Fares Ahmed" src={getAssetUrl("/assets/mePortfolio2.webp")} />
                 <Typography sx={{color:colors.primary[100],fontStyle:"italic"}} variant="h4">Fares Ahmed</Typography>
             </Box>
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} flexWrap={"wrap"}>

@@ -1,6 +1,7 @@
 import { useTheme } from '@mui/material/styles';
 import { tokens } from "../../theme";
 import TextType from '../../textTypeAnimation/TextType';
+import { getAssetUrl } from "../../utils/assets";
 
 import Box from '@mui/material/Box'
 import Tooltip from '@mui/material/Tooltip'
@@ -43,7 +44,7 @@ export default function Hero() {
          
           <Button   variant="outlined" color="inherit"   startIcon={<DownloadIcon  className='TNeonSvg' />} sx={{color:colors.secondary[100], borderRadius:"20px",  }} component="a" target='_blank' href="https://drive.google.com/file/d/1_TQkeB6te1Yijjb3aWZFRA7w67pipWbF/view?usp=sharing" download aria-label="Download Resume">Download Resume</Button>
           <ScrollLink to="contact" smooth duration={500} offset={-80}>
-              <Button  variant="outlined" color="inherit" sx={{ color:colors.secondary[100], backdropFilter: 'blur(10px)',  borderRadius: "20px",  }} startIcon={<WorkIcon className='TNeonSvg' />} component="a" href="mailto:fareselsisi35@gmail.com" aria-label="Hire Me">Hire Me</Button>
+               <Button  variant="outlined" color="inherit" sx={{ color:colors.secondary[100], backdropFilter: 'blur(10px)',  borderRadius: "20px",  }} startIcon={<WorkIcon className='TNeonSvg' />} component="a" href="mailto:fareselsisi35@gmail.com" aria-label="Hire Me">Hire Me</Button>
           </ScrollLink>
               
           <ScrollLink to="projects" smooth duration={500} offset={-80}>
@@ -58,7 +59,7 @@ export default function Hero() {
         width: { xs: 200, sm: 250, md: 250, lg: 300 },
               height: { xs: 200, sm: 250, md: 250, lg: 300 },
             border:`solid 1px ${colors.secondary[100]}`}
-       } alt="Fares Ahmed" src="/assets/mePortfolio2.webp" />
+       } alt="Fares Ahmed" src={getAssetUrl("/assets/mePortfolio2.webp")} />
           <Stack direction="row" spacing={1} justifyContent="center" sx={{ mt: 1 }}>
             <Tooltip title="linkedin">
               <IconButton sx={{color:colors.secondary[100]}}  component="a" href="https://www.linkedin.com/in/fares-elsisi-613732321/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon className='TNeonlinkedinSvg' /></IconButton>

@@ -15,6 +15,7 @@ import "./Projects.css"
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { useTheme } from '@mui/material/styles';
 import { tokens } from "../../theme";
+import { getAssetUrl } from '../../utils/assets';
 
 
 const filters = ['All','Personal Projects', "Not Completed",'Featured', "Next js","Typescript", 'React','Fullstack Projects','API',"Backend"]
@@ -94,7 +95,7 @@ const Projects = () => {
                     </CardContent>
                              {p.thumbnail && (
                         <LazyLoadImage
-                          src={p.thumbnail}
+                          src={getAssetUrl(p.thumbnail)}
                           alt={`${p.title} thumbnail`}
                           effect="blur"
                           style={{

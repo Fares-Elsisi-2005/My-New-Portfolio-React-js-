@@ -4,8 +4,8 @@ import Button from '@mui/material/Button';
 import skillsData from '../../data/skills.json';
 import { useTheme } from '@mui/material/styles';
 import { tokens } from "../../theme";
+import { getAssetUrl } from '../../utils/assets';
 
- 
 
 const Skills = () => {
     const theme = useTheme();
@@ -69,7 +69,7 @@ const Skills = () => {
                                             }}
                                         >
                                             <Box sx={{ fontSize: "3em", mb:"10px" }}>
-                                                <img style={{width:"100%"}} src={skill.image} alt={skill.name} />
+                                                <img style={{width:"100%"}} src={getAssetUrl(skill.image)} alt={skill.name} />
                                             </Box>
                                             <Typography sx={{color:colors.secondary[100], fontSize: "1.1em", fontWeight: "600" }} variant='h3'>
                                                 {skill.name}
