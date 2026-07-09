@@ -10,9 +10,16 @@
   --spotlight-color: rgba(177, 164, 164, 0.05);
    display:"flex";
   justify-content: center;
-  min-height: 240px;
+  min-height: 280px;
   max-height: 300px;
 
+}
+
+@media (min-width: 1005px) {
+  .card-spotlight {
+    min-height: 290px;
+    max-height: 300px;
+  }
 }
 .card-spotlight.about{
   min-height:fit-content;
