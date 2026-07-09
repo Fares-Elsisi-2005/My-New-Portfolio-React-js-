@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
   const enableVisualizer = process.env.VIZ === 'true' || mode === 'analyze'
 
   return {
+    base: "/My-New-Portfolio-React-js-/",
     plugins: [
       react(),
       svgr(),  // 👈 add svgr here
