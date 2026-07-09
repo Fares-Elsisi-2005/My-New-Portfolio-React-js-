@@ -15,10 +15,10 @@
 
 }
 
-@media (min-width: 1005px) {
+@media (min-width: 1020px) {
   .card-spotlight {
-    min-height: 290px;
-    max-height: 300px;
+    min-height: 340px;
+    max-height: 400px;
   }
 }
 .card-spotlight.about{
