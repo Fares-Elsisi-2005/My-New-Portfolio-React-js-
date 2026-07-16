@@ -39,7 +39,7 @@ export default function Hero() {
             textColors={[colors.secondary[100]]}
             
       />
-        <Typography   variant="h4" sx={{ opacity: 0.9, color:colors.secondary[100]}}>I build modern and responsive client-side web apps.</Typography>
+        <Typography   variant="h4" sx={{ opacity: 0.9, color:colors.secondary[100]}}>I build modern and responsive  web apps.</Typography>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={4} justifyContent="center" sx={{ mt: 2 }}>
          
           <Button   variant="outlined" color="inherit"   startIcon={<DownloadIcon  className='TNeonSvg' />} sx={{color:colors.secondary[100], borderRadius:"20px",  }} component="a" target='_blank' href="https://drive.google.com/file/d/1_TQkeB6te1Yijjb3aWZFRA7w67pipWbF/view?usp=sharing" download aria-label="Download Resume">Download Resume</Button>
