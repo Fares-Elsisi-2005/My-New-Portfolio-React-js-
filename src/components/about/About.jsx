@@ -31,7 +31,7 @@ const About = () => {
                 <Box    width={"55%"} m={"10px"}   sx={{          
                     
                 }}>
-                    <Typography sx={{color:colors.secondary[100],fontStyle:"italic"}} variant="subtitle2">
+                    <Typography sx={{color:colors.secondary[100],fontStyle:"italic", fontSize:"1rem", textAlign:"start"}} variant="subtitle2">
                           
 
 "I'm a passionate <sapn style={{ color: colors.blue[100] }}></sapn>Frontend Developer with <sapn style={{ color: colors.blue[100] }}> 13+ months </sapn> of experience building modern, responsive, and user-friendly web applications. I've <sapn style={{ color: colors.blue[100] }}> developed 30+ </sapn>projects using React.js, JavaScript, REST APIs, and modern frontend technologies.
