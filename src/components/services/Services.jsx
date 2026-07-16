@@ -9,6 +9,7 @@ import ApiIcon from "../../images/servicesimages/api2.svg?react";
 import AppDevelopment from "../../images/servicesimages/reactjs2.svg?react";
 import Responsive from "../../images/servicesimages/responsive2.svg?react";
 import WebLayout from "../../images/servicesimages/layout2.svg?react";
+import ShopifyIcon from "../../images/servicesimages/shopify.svg?react";
 /* reactjs2.svg */
 
 
@@ -31,41 +32,12 @@ const Services = () => {
                          gridTemplateColumns: {
                               xs: "1fr",       // mobile  
                                    sm: "1fr 1fr", // tablet  
-                              md:"1fr 1fr 1fr",
-                              lg: "1fr 1fr 1fr ", // desktop 
+                              md:"1fr 1fr ",
+                              lg: "1fr 1fr  ", // desktop 
                          },
                          }}>
          
-                <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor={colors.secondary[100]}>
-                    <Box width={"40%"} m={"0 auto"}>
-                        {/* <img   style={{  width:"100%"}} src="/src/images/servicesimages/landingPage.svg" alt="landingPage" /> */}
-                        <LandingPage2Svg style={{ color:colors.secondary[100], width: "100%", height: "auto" }} />
-
-
-                    </Box>
-                    <Box   mt={"10px"} >
-                        <Typography sx={{color:colors.secondary[100]}}>Landing Page Development</Typography>
-                        <Typography sx={{color:colors.secondary[100]}}>Build high-converting landing pages for startups.</Typography>
-                    </Box>
-
-            </SpotlightCard>
-                 
-
-                 
-                <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor= {colors.secondary[100]}>
-                    <Box width={"40%"} m={"0 auto"} >
-                         {/* <img   style={{width:"100%"}} src="/src/images/servicesimages/landingPage2.svg" alt="landingPage" /> */}
-                        <Responsive style={{ color:colors.secondary[100], width: "100%", height: "auto" }} />
-
-
-                    </Box>
-                    <Box /* className="TNeon" */ mt={"10px"} >
-                        <Typography sx={{color:colors.secondary[100]}}
-                        >Responsive Web Design</Typography>
-                        <Typography sx={{color:colors.secondary[100]}}>Websites that look great on any device</Typography>
-                    </Box>
-                </SpotlightCard>
-                 
+               
                 
                  
                 <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor={colors.secondary[100]}>
@@ -76,41 +48,27 @@ const Services = () => {
 
                     </Box>
                     <Box /* className="TNeon" */ mt={"10px"} >
-                        <Typography sx={{color:colors.secondary[100]}}>React Web Applications</Typography>
-                        <Typography sx={{color:colors.secondary[100]}}>Modern, fast, scalable web apps using React js</Typography>
+                        <Typography sx={{color:colors.secondary[100]}}>React & Next Development</Typography>
+                        <Typography sx={{color:colors.secondary[100]}}>Modern, fast, scalable web apps using React js & Next js</Typography>
                     </Box>
                     </SpotlightCard>
                      
         
                  
-                
-                <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor={colors.secondary[100]}>
-                    <Box width={"40%"} m={"0 auto"}>
-                        {/* <img   style={{width:"100%"}} src="/src/images/servicesimages/Api.svg" alt="landingPage" /> */}
-                        <ApiIcon style={{ color:colors.secondary[100], width: "100%", height: "auto" }} />
-
-
-                    </Box>
-                    <Box /* className="TNeon" */ mt={"10px"} >
-                        <Typography sx={{color:colors.secondary[100]}}>API Integration</Typography>
-                        <Typography sx={{color:colors.secondary[100]}}> Connect websites with APIs & third-party services.</Typography>
-                    </Box>
-                    </SpotlightCard>
                  
-        
                  
                 
                 <SpotlightCard className="custom-spotlight-card spotlightCard" spotlightColor={colors.secondary[100]}>
                     <Box width={"40%"} m={"0 auto"}>
-                        {/* <img   style={{width:"100%"}} src="/src/images/servicesimages/web-layout.svg" alt="landingPage" /> */}
-                        <WebLayout style={{ color:colors.secondary[100], width: "100%", height: "auto" }} />
+                         
+                        <ShopifyIcon style={{ color:colors.secondary[100], width: "100%", height: "auto" }} />
 
 
                     </Box>
                     <Box /* className="TNeon" */ mt={"10px"} >
                     
-                        <Typography sx={{color:colors.secondary[100]}}>Custom Components & UI</Typography>
-                        <Typography sx={{color:colors.secondary[100]}}>Tailored UI elements that fit your brand</Typography>
+                        <Typography sx={{color:colors.secondary[100]}}>Shopify Development</Typography>
+                        <Typography sx={{color:colors.secondary[100]}}>Custom Shopify themes  and apps</Typography>
                     </Box>
                     </SpotlightCard>
                  
