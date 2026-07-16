@@ -32,11 +32,12 @@ const About = () => {
                     
                 }}>
                     <Typography sx={{color:colors.secondary[100],fontStyle:"italic"}} variant="subtitle2">
-                         
-                        "I’m a passionate <sapn style={{ color: colors.blue[100] }}>Frontend Developer</sapn>   with strong experience in building modern, responsive, and user-friendly web applications.
-Over the past 10 months, I’ve <sapn style={{ color: colors.blue[100] }}> developed 30+ projects </sapn> ranging from simple apps to full-stack platforms using React.js, JavaScript, and REST APIs.
-Currently, I’m working on an<sapn style={{ color: colors.blue[100] }}>online education platform </sapn> with Firebase authentication and payment integration.
-I’m eager to bring creativity, clean code, and problem-solving skills to real-world projects and collaborative teams."
+                          
+
+"I'm a passionate <sapn style={{ color: colors.blue[100] }}></sapn>Frontend Developer with <sapn style={{ color: colors.blue[100] }}> 13+ months </sapn> of experience building modern, responsive, and user-friendly web applications. I've <sapn style={{ color: colors.blue[100] }}> developed 30+ </sapn>projects using React.js, JavaScript, REST APIs, and modern frontend technologies.
+
+I started my career as a <sapn style={{ color: colors.blue[100] }}>Shopify Developer</sapn>, building and customizing Shopify themes and contributing to Shopify app development. Currently, I work as a<sapn style={{ color: colors.blue[100] }}> Remote Independent Contributor</sapn>, creating scalable, high-quality web applications with a focus on clean code and great user experiences.
+"
                      </Typography>
                 </Box>
             </Box>

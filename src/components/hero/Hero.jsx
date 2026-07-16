@@ -31,7 +31,7 @@ export default function Hero() {
       <Stack spacing={4} sx={{ maxWidth: 800 ,margin:"20px" }}>
         <Typography     variant="h1" sx={{ color:colors.secondary[100], fontWeight: 700 }}>Hello, I am Fares</Typography>
           <TextType 
-        text={["Frontend Developer", "Web Developer", "React Developer", "javascript Developer"]}
+        text={["Frontend Developer", "Shopify Developer", "Web Developer", "React Developer", "javascript Developer"]}
         typingSpeed={75}
         pauseDuration={1500}
         showCursor={true}

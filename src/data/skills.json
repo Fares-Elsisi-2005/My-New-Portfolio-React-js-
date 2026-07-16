@@ -81,6 +81,11 @@
         "id": "s8",
         "name": "Next js",
         "image": "/assets/skillsImages/Nextjs.png"
+    },
+    {
+        "id": "s9",
+        "name": "Shopify",
+        "image": "/assets/skillsImages/shopify.png"
     }
 
      

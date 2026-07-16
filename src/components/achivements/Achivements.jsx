@@ -47,7 +47,7 @@ const Achivements = () => {
                                      }}>
                                     <CountUp
                                         from={0}
-                                        to={30}
+                                        to={40}
                                         separator=","
                                         direction="up"
                                         duration={1}
@@ -144,7 +144,7 @@ const Achivements = () => {
                                         
                                         fontSize: "1.1em",
                                         fontWeight: "600"
-                                    }} variant='h3'>projects that i am proud</Typography>
+                                    }} variant='h3'>Months Since I started my career</Typography>
                                 </Box>
                         
                          
